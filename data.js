@@ -80,16 +80,6 @@ var data = {
             Team: "Ferrari"
         },
         {
-            Number: 21,
-            Name: "Nyck de Vries",
-            Team: "Alfa Tauri"
-        },
-        {
-            Number: 40,
-            Name: "Liam Lawson",
-            Team: "Alfa Tauri"
-        },
-        {
             Number: 23,
             Name: "Alex Albon",
             Team: "Williams"
@@ -124,14 +114,16 @@ var data = {
         {
             Name: "Bahrain Grand Prix",
             Date: "2023-03-02",
-            //Finish: [1, 11, 14, 55, 44, 18, 63, 77, 10, 23, 22, 2, 20, 21, 27, 24, 4, 31, 16, 81],
-            //Picks: [
-           //     { Player: "Nick", Drivers: [11, 24, 4] },
-            //    { Player: "Bridget", Drivers: [63, 77, 21] },
-            //    { Player: "DOD", Drivers: [1, 14, 22] },
-            //    { Player: "Logan", Drivers: [44, 10, 81] },
-            //    { Player: "Pud", Drivers: [55, 23, 16] }
-            //]
+            Finish: [1, 11, 14, 55, 44, 18, 63, 77, 10, 23, 22, 2, 20, 3, 27, 24, 4, 31, 16, 81],
+            Picks: [
+                { Player: "Nick", Drivers: [44, 22, 4] },
+                { Player: "Bridget", Drivers: [63, 4, 81] },
+                { Player: "DOD", Drivers: [1, 63, 22] },
+                { Player: "Logan", Drivers: [44, 18, 10] },
+                { Player: "Vyanka", Drivers: [55, 63, 81] },
+                { Player: "Emma", Drivers: [1, 81, 2] },
+                { Player: "Pud", Drivers: [55, 10, 16] }
+            ]
            }
     ]
 }

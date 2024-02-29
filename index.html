@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <link rel="icon" type="image/png" href="f1.png" />
 
-    <title>F1 2022 Competition</title>
-    <meta name="description" content="F1 2022 Competition">
+    <title>F1 2024 Competition</title>
+    <meta name="description" content="F1 2024 Competition">
     <meta name="author" content="Nick">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -37,9 +37,10 @@
                 if (currentRace.Finish) {
                     var array = [];
                     array.push((raceIndex+1).toString());
+                    var PointAverages;
                     
                     for(var i = 1; i < headerArray.length; i++){
-                            array.push(chartArray[raceIndex+1][i]  +  (currentRace.Picks[currentRace.Picks.findIndex(element => element.Player == headerArray[i])].Points-24));
+                            array.push(chartArray[raceIndex+1][i]  +  (currentRace.Picks[currentRace.Picks.findIndex(element => element.Player == headerArray[i])].Points-32));
                     }
                     chartArray.push(array);
                 }
@@ -175,7 +176,7 @@
             for (raceIndex = 0; raceIndex < data.Race.length; raceIndex++) {
                 var currentRace = data.Race[raceIndex];
                 if (currentRace.Finish) {
-                    var currentPoints = (data.Player.length*3);
+                    var currentPoints = 20;
                     var picksIndex;
                     for (pickIndex = 0; pickIndex < currentRace.Picks.length; pickIndex++) {
                         currentRace.Picks[pickIndex].DriverPicks = [0, 0, 0];
@@ -221,12 +222,11 @@
                                     // Adding Points per Driver per Race
 
 
-                                    matchCount += 1;
                                 }
                             }
                         }
 
-                        currentPoints -= matchCount;
+                        currentPoints = currentPoints-1;
 
                     }
                 }
