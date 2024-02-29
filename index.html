@@ -46,7 +46,7 @@
                 }
             }
         var options = {
-          title: 'Points over Time Compared to Average',
+          title: 'Points over Time Compared to Theoretical Average',
           curveType: 'function',
           legend: { position: 'bottom' },
           fontName: 'Racing Sans One',
@@ -185,6 +185,12 @@
                     for (positionIndex = 0; positionIndex < currentRace.Finish.length; positionIndex++) {
                         var matchCount = 0;
 
+                        const driver = data.Driver.find(d => d.Number == currentRace.Finish[positionIndex]);
+                        if (driver.Points)
+                            driver.Points += currentPoints;
+                        else
+                            driver.Points = currentPoints;
+
                         // see if anyone has the current driver
                         var pickIndex;
                         for (pickIndex = 0; pickIndex < currentRace.Picks.length; pickIndex++) {
@@ -211,13 +217,7 @@
                                         player.Points = currentPoints;
 
                                     // Points per driver
-                                    if (matchCount == 0) {
-                                        const driver = data.Driver.find(d => d.Number == currentRace.Finish[positionIndex]);
-                                        if (driver.Points)
-                                            driver.Points += currentPoints;
-                                        else
-                                            driver.Points = currentPoints;
-                                    }
+
 
                                     // Adding Points per Driver per Race
 
