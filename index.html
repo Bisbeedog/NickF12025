@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="f1.png" />
+
+    <title>F1 2022 Competition</title>
+    <meta name="description" content="F1 2022 Competition">
+    <meta name="author" content="Nick">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=1.0">
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+    google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var chartArray = [];
+        var headerArray = ['Race'];
+        for(var i = 0; i < data.Player.length; i++) {
+            headerArray.push(data.Player[i].Name);
+        }
+
+        chartArray.push(headerArray);
+        var starter = ['0'];
+        for(var i = 1; i < headerArray.length; i++){
+            starter.push(0);
+        }
+        chartArray.push(starter);
+
+        var raceIndex;
+            for (raceIndex = 0; raceIndex < data.Race.length; raceIndex++) {
+                var currentRace = data.Race[raceIndex];
+                if (currentRace.Finish) {
+                    var array = [];
+                    array.push((raceIndex+1).toString());
+                    
+                    for(var i = 1; i < headerArray.length; i++){
+                            array.push(chartArray[raceIndex+1][i]  +  (currentRace.Picks[currentRace.Picks.findIndex(element => element.Player == headerArray[i])].Points-24));
+                    }
+                    chartArray.push(array);
+                }
+            }
+        var options = {
+          title: 'Points over Time Compared to Average',
+          curveType: 'function',
+          legend: { position: 'bottom' },
+          fontName: 'Racing Sans One',
+          fontSize: 16,
+          animation: {
+            startup: true,
+            duration: 2000,
+            easing: 'out',
+          },
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+        var chartDrawTable = google.visualization.arrayToDataTable(chartArray);
+        chart.draw(chartDrawTable, options);
+      }
+    </script>
+</head>
+
+<body>
+
+
+    <script src="data.js?01"></script>
+    <div id="root">
+        <div class="banner">
+            <img class="flag" src="flag.png" alt="Flag">
+            <div class="banner-text">
+                <h1>Fantasy f1</h1>
+                <p>Nick Haga</p>
+            </div>
+        </div>
+        <table class="styled-table">
+            <colgroup>
+                <col span="1" style="width: 15%;">
+                <col span="1" style="width: 20%" >
+                <col span="1" style="width: 50%;">
+                <col span="1" style="width: 15%;">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>Position</th>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Points</th>
+                </tr>
+            </thead>
+            <tbody id="playerRow">
+            </tbody>
+        </table>
+        <div id="curve_chart" style="width: 100%; height: 500px"></div>
+        <table class="styled-table">
+            <colgroup>
+                <col span="1" style="width: 15%;">
+                <col span="1" style="width: 20%;">
+                <col span="1" style="width: 50%;">
+                <col span="1" style="width: 15%;">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>Position</th>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Points</th>
+                </tr>
+            </thead>
+            <tbody id="driverRow">
+            </tbody>
+        </table>
+        <div id="races">
+            <!-- <div class="race">
+                <table class="styled-table">
+                    <thead>
+                        <tr>
+                            <th>Bahrain Grand Prix</th>
+                            <th class="rightAlign">3/8/2022</th>
+                        </tr>
+                    </thead>
+                </table>
+                <div class="driverFinishes">
+                    <span class="redText">Finish: </span><span class="textDetail">lewis hamilton alks;jf sa;l
+                        fd;lkjfsa;lk
+                        jds;lksa ;lkdsj lks lkjf
+                        ;lkflkjdflkjfd;lksa;lk dsadslk f slk lk jf;ldsa jj sljfd jlds;kj dsalkfjds;lkf jjjdsafj;lkds
+                        ;lkjf
+                        kdfjj;lkfj dfj;ljd l;ksf jlkfd j;ldsfj dsfjds;lf jsjdsfl;j</span>
+                </div>
+                <table class="driver-table">
+                    <colgroup>
+                        <col span="1" style="width: 15%;">
+                        <col span="1" style="width: 15%;">
+                        <col span="1" style="width: 70%;">
+                    </colgroup>
+                    <tbody id="driverFinish">
+                        <tr>
+                            <td class="redText">Nick</td>
+                            <td>30</td>
+                            <td>lewis hamilton, lewis hamilton, lewis hamilton</td>
+                        </tr>
+                        <tr>
+                            <td>Nick</td>
+                            <td>30</td>
+                            <td>lewis hamilton, lewis hamilton, lewis hamilton</td>
+                        </tr>
+                        <tr>
+                            <td>Nick</td>
+                            <td>30</td>
+                            <td>lewis hamilton, lewis hamilton, lewis hamilton</td>
+                        </tr>
+                        <tr>
+                            <td>Nick</td>
+                            <td>30</td>
+                            <td>lewis hamilton, lewis hamilton, lewis hamilton</td>
+                        </tr>
+                        <tr>
+                            <td>Nick</td>
+                            <td>30</td>
+                            <td>lewis hamilton, lewis hamilton, lewis hamilton</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div> -->
+        </div>
+
+    </div>
+    <script>
+        function RacePoints() {
+            var raceIndex;
+            for (raceIndex = 0; raceIndex < data.Race.length; raceIndex++) {
+                var currentRace = data.Race[raceIndex];
+                if (currentRace.Finish) {
+                    var currentPoints = (data.Player.length*3);
+                    var picksIndex;
+                    for (pickIndex = 0; pickIndex < currentRace.Picks.length; pickIndex++) {
+                        currentRace.Picks[pickIndex].DriverPicks = [0, 0, 0];
+                    }
+                    var positionIndex;
+                    for (positionIndex = 0; positionIndex < currentRace.Finish.length; positionIndex++) {
+                        var matchCount = 0;
+
+                        // see if anyone has the current driver
+                        var pickIndex;
+                        for (pickIndex = 0; pickIndex < currentRace.Picks.length; pickIndex++) {
+                            var currentPick = currentRace.Picks[pickIndex];
+
+                            var pickDriverIndex;
+                            for (pickDriverIndex = 0; pickDriverIndex < currentPick.Drivers.length; pickDriverIndex++) {
+                                if (currentRace.Finish[positionIndex] == currentPick.Drivers[pickDriverIndex]) {
+
+                                    currentPick.DriverPicks[pickDriverIndex] = currentPoints;
+
+
+                                    // Points per race
+                                    if (currentPick.Points)
+                                        currentPick.Points += currentPoints;
+                                    else
+                                        currentPick.Points = currentPoints;
+
+                                    // Points per player 
+                                    const player = data.Player.find(p => p.Name == currentPick.Player);
+                                    if (player.Points)
+                                        player.Points += currentPoints;
+                                    else
+                                        player.Points = currentPoints;
+
+                                    // Points per driver
+                                    if (matchCount == 0) {
+                                        const driver = data.Driver.find(d => d.Number == currentRace.Finish[positionIndex]);
+                                        if (driver.Points)
+                                            driver.Points += currentPoints;
+                                        else
+                                            driver.Points = currentPoints;
+                                    }
+
+                                    // Adding Points per Driver per Race
+
+
+                                    matchCount += 1;
+                                }
+                            }
+                        }
+
+                        currentPoints -= matchCount;
+
+                    }
+                }
+
+
+            }
+        }
+        RacePoints();
+        function SortData() {
+            data.Player.sort(function (a, b) {
+                return b.Points - a.Points;
+            });
+            data.Driver.sort(function (a, b) {
+                var aPoints = a.Points || 0;
+                var bPoints = b.Points || 0;
+                return bPoints - aPoints;
+            });
+            for (var raceIndex = 0; raceIndex < data.Race.length; raceIndex++) {
+                if (data.Race[raceIndex].Picks) {
+                    data.Race[raceIndex].Picks.sort(function (a, b) {
+                        return b.Points - a.Points;
+                    });
+                }
+            }
+        }
+        SortData();
+        function AddPlayerTable() {
+            var playerLoop = 0;
+            for (playerLoop = 0; playerLoop < data.Player.length; playerLoop++) {
+                var newRow = document.createElement("tr");
+                document.getElementById("playerRow").appendChild(newRow);
+                var playerPosition = document.createElement("td");
+                playerPosition.innerText = playerLoop + 1;
+                newRow.appendChild(playerPosition);
+                var playerImage = document.createElement("td");
+                var img = document.createElement("img");
+                img.src = data.Player[playerLoop].Name + ".png";
+                playerImage.appendChild(img);
+                newRow.appendChild(playerImage);
+                var playerName = document.createElement("td");
+                playerName.innerText = data.Player[playerLoop].Name;
+                newRow.appendChild(playerName);
+                var playerPoints = document.createElement("td");
+                playerPoints.innerText = data.Player[playerLoop].Points || 0;
+                newRow.appendChild(playerPoints);
+            }
+        }
+        AddPlayerTable();
+
+        function AddDriverTable() {
+            var driverLoop = 0;
+            for (driverLoop = 0; driverLoop < data.Driver.length; driverLoop++) {
+                var newRow = document.createElement("tr");
+                document.getElementById("driverRow").appendChild(newRow);
+                var driverPosition = document.createElement("td");
+                driverPosition.innerText = driverLoop + 1;
+                newRow.appendChild(driverPosition);
+                var driverImage = document.createElement("td");
+                var img = document.createElement("img");
+                img.src = data.Driver[driverLoop].Number + ".png";
+                driverImage.appendChild(img);
+                newRow.appendChild(driverImage);
+                var driverName = document.createElement("td");
+                driverName.innerText = data.Driver[driverLoop].Name;
+                newRow.appendChild(driverName);
+                var driverPoints = document.createElement("td");
+                driverPoints.innerText = data.Driver[driverLoop].Points || 0;
+                newRow.appendChild(driverPoints);
+            }
+        }
+        AddDriverTable();
+
+        function AddRaceTables() {
+            var raceLoop = 0;
+            for (raceLoop = 0; raceLoop < data.Race.length; raceLoop++) {
+                var currentRace = data.Race[raceLoop];
+                var raceDiv = document.createElement("div");
+                raceDiv.classList = "race";
+                document.getElementById("races").appendChild(raceDiv);
+                var raceHeader = document.createElement("table");
+                raceHeader.classList = "styled-table";
+                raceDiv.appendChild(raceHeader);
+                var raceTHead = document.createElement("thead");
+                raceHeader.appendChild(raceTHead);
+                var raceTR = document.createElement("tr");
+                raceTHead.appendChild(raceTR);
+                var raceName = document.createElement("th");
+                raceName.innerText = data.Race[raceLoop].Name;
+                raceTR.appendChild(raceName);
+                var raceDate = document.createElement("th");
+                raceDate.classList = "rightAlign";
+                raceDate.innerText = data.Race[raceLoop].Date;
+                raceTR.appendChild(raceDate);
+                var finishDiv = document.createElement("div");
+                finishDiv.classList = "driverFinishes";
+                raceDiv.appendChild(finishDiv);
+                if (currentRace.Finish) {
+                    var finishSign = document.createElement("span");
+                    finishSign.classList = "redText";
+                    finishSign.innerText = "Finish: ";
+                    finishDiv.appendChild(finishSign);
+                    var driverOrder = document.createElement("span");
+                    driverOrder.classList = "textDetail";
+                    var driverText = "";
+                    for (var finishIndex = 0; finishIndex < currentRace.Finish.length; finishIndex++) {
+                        const found = data.Driver.find(element => element.Number == currentRace.Finish[finishIndex]);
+                        driverText += found.Name;
+                        if (finishIndex < currentRace.Finish.length - 1) {
+                            driverText += ", ";
+                        }
+                    }
+                    driverOrder.innerText = driverText;
+                    finishDiv.appendChild(driverOrder);
+
+                    var driverTable = document.createElement("table");
+                    driverTable.classList = "driver-table";
+                    raceDiv.appendChild(driverTable);
+                    var columnGroup = document.createElement("colgroup");
+                    driverTable.appendChild(columnGroup);
+                    var col1 = document.createElement("col");
+                    col1.span = "1";
+                    col1.style = "width: 15%";
+                    columnGroup.appendChild(col1);
+                    var col2 = document.createElement("col");
+                    col2.span = "1";
+                    col2.style = "width: 15%";
+                    columnGroup.appendChild(col2);
+                    var col3 = document.createElement("col");
+                    col3.span = "1";
+                    col3.style = "width: 70%";
+                    columnGroup.appendChild(col3);
+                    var playerFinishTB = document.createElement("tbody");
+                    playerFinishTB.classList = "driverFinish";
+                    driverTable.appendChild(playerFinishTB);
+                    for (var playerFinishIndex = 0; playerFinishIndex < currentRace.Picks.length; playerFinishIndex++) {
+                        var playerFinishTR = document.createElement("tr");
+                        playerFinishTB.appendChild(playerFinishTR);
+                        var playerFinishName = document.createElement("td");
+                        playerFinishName.innerText = currentRace.Picks[playerFinishIndex].Player;
+                        playerFinishTR.appendChild(playerFinishName);
+                        var playerFinishPoints = document.createElement("td");
+                        playerFinishPoints.innerText = currentRace.Picks[playerFinishIndex].Points;
+                        playerFinishTR.appendChild(playerFinishPoints);
+                        var playerFinishDrivers = document.createElement("tr");
+                        var driverList = "";
+                        for (var driverFinishIndex = 0; driverFinishIndex < 3; driverFinishIndex++) {
+                            var found = data.Driver.find(element => element.Number == currentRace.Picks[playerFinishIndex].Drivers[driverFinishIndex]);
+                            driverList += found.Name;
+                            if (driverFinishIndex < 2) {
+                                driverList += "(" + currentRace.Picks[playerFinishIndex].DriverPicks[driverFinishIndex] + ")" + ", ";
+                            }
+                            else {
+                                driverList += "(" + currentRace.Picks[playerFinishIndex].DriverPicks[driverFinishIndex] + ")";
+                            }
+                        }
+                        playerFinishDrivers.innerText = driverList;
+                        playerFinishTR.appendChild(playerFinishDrivers);
+                    }
+                }
+            }
+        }
+        AddRaceTables();
+
+        console.log(data);
+    </script>
+</body>
+
+</html>
