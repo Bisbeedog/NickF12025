@@ -172,7 +172,7 @@
             <tbody id="driverRow">
             </tbody>
         </table>
-        <div id="driver_chart" style="width: 100%; height: 500px"></div>
+        <div id="driver_chart" style="width: 100%; height: 1000px"></div>
 
         <div id="races">
             <!-- <div class="race">
@@ -323,7 +323,12 @@
                 newRow.appendChild(playerPosition);
                 var playerImage = document.createElement("td");
                 var img = document.createElement("img");
-                img.src = data.Player[playerLoop].Name + ".png";
+                if(data.Player[playerLoop].Name == "Logan"){
+                    img.src = data.Player[playerLoop].Name + ".gif";
+                }
+                else{
+                    img.src = data.Player[playerLoop].Name + ".png";
+                }
                 playerImage.appendChild(img);
                 newRow.appendChild(playerImage);
                 var playerName = document.createElement("td");
