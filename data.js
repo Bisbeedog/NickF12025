@@ -10,19 +10,24 @@ var data = {
     ],
     Driver: [
         {
+            Number: 1,
+            Name: "Max Verstappen",
+            Team: "Red Bull"
+        },
+        {
+            Number: 2,
+            Name: "Logan Sargeant",
+            Team: "Williams"
+        },
+        {
+            Number: 3,
+            Name: "Daniel Ricciardo",
+            Team: "RB"
+        },
+        {
             Number: 4,
             Name: "Lando Norris",
             Team: "McLaren"
-        },
-        {
-            Number: 24,
-            Name: "Zhou Guanyu",
-            Team: "Sauber"
-        },
-        {
-            Number: 20,
-            Name: "Kevin Magnussen",
-            Team: "Haas"
         },
         {
             Number: 10,
@@ -50,34 +55,14 @@ var data = {
             Team: "Aston Martin"
         },
         {
-            Number: 22,
-            Name: "Yuki Tsunoda",
-            Team: "RB"
-        },
-        {
-            Number: 31,
-            Name: "Esteban Ocon",
-            Team: "Alpine"
-        },
-        {
-            Number: 1,
-            Name: "Max Verstappen",
-            Team: "Red Bull"
-        },
-        {
-            Number: 44,
-            Name: "Lewis Hamilton",
-            Team: "Mercedes"
-        },
-        {
-            Number: 27,
-            Name: "Nico Hulkenburg",
+            Number: 20,
+            Name: "Kevin Magnussen",
             Team: "Haas"
         },
         {
-            Number: 55,
-            Name: "Carlos Sainz",
-            Team: "Ferrari"
+            Number: 22,
+            Name: "Yuki Tsunoda",
+            Team: "RB"
         },
         {
             Number: 23,
@@ -85,9 +70,29 @@ var data = {
             Team: "Williams"
         },
         {
-            Number: 77,
-            Name: "Valterri Bottas",
+            Number: 24,
+            Name: "Zhou Guanyu",
             Team: "Sauber"
+        },
+        {
+            Number: 27,
+            Name: "Nico Hulkenburg",
+            Team: "Haas"
+        },
+        {
+            Number: 31,
+            Name: "Esteban Ocon",
+            Team: "Alpine"
+        },
+        {
+            Number: 44,
+            Name: "Lewis Hamilton",
+            Team: "Mercedes"
+        },
+        {
+            Number: 55,
+            Name: "Carlos Sainz",
+            Team: "Ferrari"
         },
         {
             Number: 63,
@@ -95,19 +100,14 @@ var data = {
             Team: "Mercedes"
         },
         {
+            Number: 77,
+            Name: "Valterri Bottas",
+            Team: "Sauber"
+        },
+        {
             Number: 81,
             Name: "Oscar Piastri",
             Team: "Mclaren"
-        },
-        {
-            Number: 2,
-            Name: "Logan Sargeant",
-            Team: "Williams"
-        },
-        {
-            Number: 3,
-            Name: "Daniel Ricciardo",
-            Team: "RB"
         }
     ],
     Race: [
@@ -124,6 +124,20 @@ var data = {
                 { Player: "Emma", Drivers: [1, 81, 2] },
                 { Player: "Pud", Drivers: [55, 10, 16] }
             ]
-           }
+           },
+           {
+            Name: "Australian Grand Prix",
+            Date: "2023-04-1",
+            Finish: [1, 44, 14, 18, 11, 4, 27, 81, 24, 22, 77, 55, 10, 31, 3, 2, 20, 63, 23, 16],
+            Picks: [
+                { Player: "Nick", Drivers: [44, 22, 4] },
+                { Player: "Bridget", Drivers: [63, 4, 81] },
+                { Player: "DOD", Drivers: [1, 63, 22] },
+                { Player: "Logan", Drivers: [44, 18, 10] },
+                { Player: "Vyanka", Drivers: [55, 63, 81] },
+                { Player: "Emma", Drivers: [1, 81, 2] },
+                { Player: "Pud", Drivers: [55, 10, 16] }
+            ] 
+        }
     ]
 }

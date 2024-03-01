@@ -64,6 +64,62 @@
       }
     </script>
 
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+    google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(drawDriverChart);
+      function drawDriverChart() {
+        var chartArray = [];
+        var headerArray = ['Race'];
+        for(var i = 0; i < data.Driver.length; i++) {
+            headerArray.push(data.Driver[i].Name);
+        }
+
+        chartArray.push(headerArray);
+        var starter = ['0'];
+        for(var i = 1; i < headerArray.length; i++){
+            starter.push(0);
+        }
+        chartArray.push(starter);
+
+        var raceIndex;
+            for (raceIndex = 0; raceIndex < data.Race.length; raceIndex++) {
+                var currentRace = data.Race[raceIndex];
+                if (currentRace.Finish) {
+                    var array = [];
+                    array.push((raceIndex+1).toString());
+                    
+                    for(var i = 0; i < 20; i++){
+                        for(var z = 0; z < 20; z++){
+                            if(currentRace.Finish[z]==data.Driver[i].Number){
+                                var result;
+                                result = 9.5 - z + chartArray[raceIndex+1][i+1];
+                                array.push(result);
+                            }
+                        }
+                    }
+                    chartArray.push(array);
+                }
+            }
+
+        var options = {
+          title: 'Driver Points over time compared to the average of 10.5',
+          curveType: 'function',
+          legend: { position: 'bottom' },
+          fontName: 'Racing Sans One',
+          fontSize: 16,
+          animation: {
+            startup: true,
+            duration: 2000,
+            easing: 'out',
+          },
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('driver_chart'));
+        var chartDrawTable = google.visualization.arrayToDataTable(chartArray);
+        chart.draw(chartDrawTable, options);
+      }
+    </script>
    
 </head>
 
@@ -116,6 +172,8 @@
             <tbody id="driverRow">
             </tbody>
         </table>
+        <div id="driver_chart" style="width: 100%; height: 500px"></div>
+
         <div id="races">
             <!-- <div class="race">
                 <table class="styled-table">
