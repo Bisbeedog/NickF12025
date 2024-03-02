@@ -114,30 +114,30 @@ var data = {
         {
             Name: "Bahrain Grand Prix",
             Date: "2023-03-02",
-            Finish: [1, 11, 14, 55, 44, 18, 63, 77, 10, 23, 22, 2, 20, 3, 27, 24, 4, 31, 16, 81],
+            Finish: [1, 11, 55, 16, 63, 4, 44, 81, 14, 18, 24, 20, 3, 22, 23, 27, 31, 10, 77, 2],
             Picks: [
-                { Player: "Nick", Drivers: [44, 22, 4] },
+                { Player: "Nick", Drivers: [4, 44, 22] },
                 { Player: "Bridget", Drivers: [63, 4, 81] },
                 { Player: "DOD", Drivers: [1, 63, 22] },
                 { Player: "Logan", Drivers: [44, 18, 10] },
                 { Player: "Vyanka", Drivers: [55, 63, 81] },
                 { Player: "Emma", Drivers: [1, 81, 2] },
-                { Player: "Pud", Drivers: [55, 10, 16] }
+                { Player: "Pud", Drivers: [55, 16, 10] }
             ]
            },
            {
-            Name: "Australian Grand Prix",
-            Date: "2023-04-1",
-            Finish: [1, 44, 14, 18, 11, 4, 27, 81, 24, 22, 77, 55, 10, 31, 3, 2, 20, 63, 23, 16],
-            Picks: [
-                { Player: "Nick", Drivers: [44, 22, 4] },
-                { Player: "Bridget", Drivers: [63, 4, 81] },
-                { Player: "DOD", Drivers: [1, 63, 22] },
-                { Player: "Logan", Drivers: [44, 18, 10] },
-                { Player: "Vyanka", Drivers: [55, 63, 81] },
-                { Player: "Emma", Drivers: [1, 81, 2] },
-                { Player: "Pud", Drivers: [55, 10, 16] }
-            ] 
+            Name: "Saudi Arabian Grand Prix",
+            Date: "2023-03-09",
+            //Finish: [1, 44, 14, 18, 11, 4, 27, 81, 24, 22, 77, 55, 10, 31, 3, 2, 20, 63, 23, 16],
+            //Picks: [
+            //    { Player: "Nick", Drivers: [44, 22, 4] },
+            //    { Player: "Bridget", Drivers: [63, 4, 81] },
+            //    { Player: "DOD", Drivers: [1, 63, 22] },
+            //    { Player: "Logan", Drivers: [44, 18, 10] },
+            //    { Player: "Vyanka", Drivers: [55, 63, 81] },
+            //    { Player: "Emma", Drivers: [1, 81, 2] },
+            //    { Player: "Pud", Drivers: [55, 10, 16] }
+            //] 
         }
     ]
 }
