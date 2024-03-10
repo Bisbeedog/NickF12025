@@ -450,6 +450,12 @@
                         playerFinishDrivers.innerText = driverList;
                         playerFinishTR.appendChild(playerFinishDrivers);
                     }
+                    var bonusPoints = document.createElement("span");
+                    bonusPoints.classList = "textDetail";
+                    var pointsText = "Bonus/Penalty Points: ";
+                    pointsText += data.Race[raceLoop].BonusPoints;
+                    bonusPoints.innerText = pointsText;
+                    raceDiv.appendChild(bonusPoints);
                 }
             }
         }

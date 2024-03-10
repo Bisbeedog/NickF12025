@@ -128,7 +128,8 @@ var data = {
                 { Player: "Vyanka", Drivers: [55, 63, 81] },
                 { Player: "Emma", Drivers: [1, 81, 2] },
                 { Player: "Pud", Drivers: [55, 16, 10] }
-            ]
+            ],
+            BonusPoints: "None"
            },
            {
             Name: "Saudi Arabian Grand Prix",
@@ -142,7 +143,9 @@ var data = {
                 { Player: "Vyanka", Drivers: [81, 63, 38] },
                 { Player: "Emma", Drivers: [1, 81, 2] },
                 { Player: "Pud", Drivers: [16, 38, 10] }
-            ] 
+            ],
+            BonusPoints: "\n Ocon: +2 for most places gained \n Logan: -28 for last race's driver swap"
+
         }
     ]
 }
