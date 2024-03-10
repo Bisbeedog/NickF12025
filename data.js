@@ -3,10 +3,10 @@ var data = {
         { Name: "Nick" },
         { Name: "DOD" },
         { Name: "Pud" },
-        { Name: "Logan" },
+        { Name: "Logan", Points:-28},
         { Name: "Vyanka" },
         { Name: "Emma" },
-        { Name: "Bridget" }
+        { Name: "Bridget"}
     ],
     Driver: [
         {
@@ -82,7 +82,13 @@ var data = {
         {
             Number: 31,
             Name: "Esteban Ocon",
-            Team: "Alpine"
+            Team: "Alpine",
+            Points: 2
+        },
+        {
+            Number: 38,
+            Name: "Oliver Bearman",
+            Team: "Ferrari"
         },
         {
             Number: 44,
@@ -128,16 +134,16 @@ var data = {
            {
             Name: "Saudi Arabian Grand Prix",
             Date: "2023-03-09",
-            //Finish: [1, 44, 14, 18, 11, 4, 27, 81, 24, 22, 77, 55, 10, 31, 3, 2, 20, 63, 23, 16],
-            //Picks: [
-            //    { Player: "Nick", Drivers: [44, 22, 4] },
-            //    { Player: "Bridget", Drivers: [63, 4, 81] },
-            //    { Player: "DOD", Drivers: [1, 63, 22] },
-            //    { Player: "Logan", Drivers: [44, 18, 10] },
-            //    { Player: "Vyanka", Drivers: [55, 63, 81] },
-            //    { Player: "Emma", Drivers: [1, 81, 2] },
-            //    { Player: "Pud", Drivers: [55, 10, 16] }
-            //] 
+            Finish: [1, 11, 16, 81, 14, 63, 38, 4, 44, 27, 23, 20, 31, 22, 2, 3, 77, 24, 18, 10],
+            Picks: [
+                { Player: "Nick", Drivers: [4, 44, 22] },
+                { Player: "Bridget", Drivers: [81, 63, 4] },
+                { Player: "DOD", Drivers: [1, 63, 22] },
+                { Player: "Logan", Drivers: [38, 44, 23] },
+                { Player: "Vyanka", Drivers: [81, 63, 38] },
+                { Player: "Emma", Drivers: [1, 81, 2] },
+                { Player: "Pud", Drivers: [16, 38, 10] }
+            ] 
         }
     ]
 }
