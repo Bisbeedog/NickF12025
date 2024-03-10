@@ -83,7 +83,6 @@ var data = {
             Number: 31,
             Name: "Esteban Ocon",
             Team: "Alpine",
-            Points: 2
         },
         {
             Number: 38,
