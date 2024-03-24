@@ -77,7 +77,8 @@ var data = {
         {
             Number: 27,
             Name: "Nico Hulkenburg",
-            Team: "Haas"
+            Team: "Haas",
+            Points: 2
         },
         {
             Number: 31,
@@ -147,6 +148,22 @@ var data = {
             ],
             BonusPoints: "\n Ocon: +2 for most places gained \n Logan: -28 for last race's driver swap"
 
-        }
+            },
+            {
+             Name: "Australian GP",
+             Date: "2023-03-09",
+             Finish: [55, 16, 4, 81, 11, 14, 18, 22, 27, 20, 23, 3, 10, 77, 24, 31, 63, 44, 1, 2],
+             Picks: [
+                 { Player: "Nick", Drivers: [4, 22, 44] },
+                 { Player: "Bridget", Drivers: [4, 81, 63] },
+                 { Player: "DOD", Drivers: [22, 63, 1] },
+                 { Player: "Logan", Drivers: [55, 23, 44] },
+                 { Player: "Vyanka", Drivers: [55, 81, 63] },
+                 { Player: "Emma", Drivers: [81, 23, 1] },
+                 { Player: "Pud", Drivers: [55, 16, 10] }
+             ],
+             BonusPoints: "\n Hulkenburg: +2 points for most places gained"
+ 
+             }
     ]
 }
