@@ -57,7 +57,8 @@ var data = {
         {
             Number: 20,
             Name: "Kevin Magnussen",
-            Team: "Haas"
+            Team: "Haas",
+            Points: 2
         },
         {
             Number: 22,
@@ -151,7 +152,7 @@ var data = {
             },
             {
              Name: "Australian GP",
-             Date: "2023-03-09",
+             Date: "2023-03-23",
              Finish: [55, 16, 4, 81, 11, 18, 22, 14, 27, 20, 23, 3, 10, 77, 24, 31, 63, 44, 1, 2],
              Picks: [
                  { Player: "Nick", Drivers: [4, 22, 44] },
@@ -164,6 +165,22 @@ var data = {
              ],
              BonusPoints: "\n Hulkenburg: +2 points for most places gained"
  
-             }
+             },
+             {
+              Name: "Japanese GP",
+              Date: "2023-04-06",
+              Finish: [1, 11, 55, 16, 4, 14, 63, 81, 44, 22, 27, 18, 20, 77, 31, 10, 2, 24, 3, 23],
+              Picks: [
+                  { Player: "Nick", Drivers: [4, 44, 22] },
+                  { Player: "Bridget", Drivers: [4, 63, 81] },
+                  { Player: "DOD", Drivers: [1, 63, 22] },
+                  { Player: "Logan", Drivers: [55, 44, 23] },
+                  { Player: "Vyanka", Drivers: [55, 63, 81] },
+                  { Player: "Emma", Drivers: [1, 81, 2] },
+                  { Player: "Pud", Drivers: [55, 16, 10] }
+              ],
+              BonusPoints: "\n Magnussen: +2 Points for most places gained"
+  
+              }
     ]
 }
