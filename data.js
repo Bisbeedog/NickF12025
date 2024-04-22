@@ -1,10 +1,10 @@
 var data = {
     Player: [
-        { Name: "Nick" },
+        { Name: "Nick", Points: 7 },
         { Name: "DOD" },
         { Name: "Pud" },
-        { Name: "Logan", Points:-28},
-        { Name: "Vyanka" },
+        { Name: "Logan", Points:-21},
+        { Name: "Vyanka"},
         { Name: "Emma" },
         { Name: "Bridget"}
     ],
@@ -95,7 +95,8 @@ var data = {
         {
             Number: 44,
             Name: "Lewis Hamilton",
-            Team: "Mercedes"
+            Team: "Mercedes",
+            Points: 7
         },
         {
             Number: 55,
@@ -181,6 +182,22 @@ var data = {
               ],
               BonusPoints: "\n Magnussen: +2 Points for most places gained"
   
-              }
+              },
+              {
+               Name: "Chinese GP",
+               Date: "2023-04-21",
+               Finish: [1, 4, 11, 16, 55, 63, 14, 81, 44, 27, 31, 23, 10, 24, 18, 20, 2, 3, 22, 77],
+               Picks: [
+                   { Player: "Nick", Drivers: [4, 44, 22] },
+                   { Player: "Bridget", Drivers: [4, 63, 81] },
+                   { Player: "DOD", Drivers: [1, 63, 22] },
+                   { Player: "Logan", Drivers: [55, 44, 23] },
+                   { Player: "Vyanka", Drivers: [55, 63, 81] },
+                   { Player: "Emma", Drivers: [1, 81, 2] },
+                   { Player: "Pud", Drivers: [16, 55, 10] }
+               ],
+               BonusPoints: "\n Hamilton: +2 points for most places gained \n Hamilton: +5 points for spring/race differential"
+   
+               }
     ]
 }
