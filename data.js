@@ -42,7 +42,8 @@ var data = {
         {
             Number: 14,
             Name: "Fernando Alonso",
-            Team: "Aston Martin"
+            Team: "Aston Martin",
+            Points: 2
         },
         {
             Number: 16,
@@ -184,6 +185,21 @@ var data = {
   
               },
               {
+                Name: "Chinese GP Sprint",
+                Date: "2023-04-20",
+                Finish: [1, 44, 11, 16, 55, 4, 81, 63, 24, 20, 3, 77, 31, 18, 10, 22, 23, 2, 27, 14],
+                Picks: [
+                    { Player: "Nick", Drivers: [44, 4, 22] },
+                    { Player: "Bridget", Drivers: [4, 81, 63] },
+                    { Player: "DOD", Drivers: [1, 63, 22] },
+                    { Player: "Logan", Drivers: [44, 55, 23] },
+                    { Player: "Vyanka", Drivers: [55, 81, 63] },
+                    { Player: "Emma", Drivers: [1, 81, 2] },
+                    { Player: "Pud", Drivers: [16, 55, 10] }
+                ],
+                BonusPoints: "\n As a reminder, this was a sprint so half points"
+                },
+              {
                Name: "Chinese GP",
                Date: "2023-04-21",
                Finish: [1, 4, 11, 16, 55, 63, 14, 81, 44, 27, 31, 23, 10, 24, 18, 20, 2, 3, 22, 77],
@@ -198,6 +214,37 @@ var data = {
                ],
                BonusPoints: "\n Hamilton: +2 points for most places gained \n Hamilton: +5 points for spring/race differential"
    
-               }
+               },
+               {
+                 Name: "Miami GP Sprint",
+                 Date: "2023-05-04",
+                 Finish: [1, 16, 11, 3, 55, 81, 27, 22, 10, 2, 24, 63, 23, 77, 31, 44, 14, 20, 18, 4],
+                 Picks: [
+                     { Player: "Nick", Drivers: [22, 44, 4] },
+                     { Player: "Bridget", Drivers: [81, 63, 4] },
+                     { Player: "DOD", Drivers: [1, 22, 63] },
+                     { Player: "Logan", Drivers: [55, 23, 44] },
+                     { Player: "Vyanka", Drivers: [55, 81, 63] },
+                     { Player: "Emma", Drivers: [1, 81, 2] },
+                     { Player: "Pud", Drivers: [16, 55, 10] }
+                 ],
+                 BonusPoints: "\n As a reminder, this was a sprint so half points"
+                 },
+                 {
+                  Name: "Miami GP",
+                  Date: "2023-05-05",
+                  Finish: [4, 1, 16, 11, 55, 44, 22, 63, 14, 31, 27, 10, 81, 24, 3, 77, 18, 23, 20, 2],
+                  Picks: [
+                      { Player: "Nick", Drivers: [4, 44, 22] },
+                      { Player: "Bridget", Drivers: [4, 63, 81] },
+                      { Player: "DOD", Drivers: [1, 22, 63] },
+                      { Player: "Logan", Drivers: [55, 44, 23] },
+                      { Player: "Vyanka", Drivers: [55, 63, 81] },
+                      { Player: "Emma", Drivers: [1, 81, 2] },
+                      { Player: "Pud", Drivers: [16, 55, 10] }
+                  ],
+                  BonusPoints: "\n Alonso: +2 points for most places gained"
+      
+                  }
     ]
 }
