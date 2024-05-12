@@ -5,7 +5,6 @@ var data = {
         { Name: "Pud" },
         { Name: "Logan", Points:-21},
         { Name: "Vyanka"},
-        { Name: "Emma" },
         { Name: "Bridget"}
     ],
     Driver: [
@@ -131,7 +130,6 @@ var data = {
                 { Player: "DOD", Drivers: [1, 63, 22] },
                 { Player: "Logan", Drivers: [44, 18, 10] },
                 { Player: "Vyanka", Drivers: [55, 63, 81] },
-                { Player: "Emma", Drivers: [1, 81, 2] },
                 { Player: "Pud", Drivers: [55, 16, 10] }
             ],
             BonusPoints: "None"
@@ -146,7 +144,6 @@ var data = {
                 { Player: "DOD", Drivers: [1, 63, 22] },
                 { Player: "Logan", Drivers: [38, 44, 23] },
                 { Player: "Vyanka", Drivers: [81, 63, 38] },
-                { Player: "Emma", Drivers: [1, 81, 2] },
                 { Player: "Pud", Drivers: [16, 38, 10] }
             ],
             BonusPoints: "\n Ocon: +2 for most places gained \n Logan: -28 for last race's driver swap"
@@ -162,7 +159,6 @@ var data = {
                  { Player: "DOD", Drivers: [22, 63, 1] },
                  { Player: "Logan", Drivers: [55, 23, 44] },
                  { Player: "Vyanka", Drivers: [55, 81, 63] },
-                 { Player: "Emma", Drivers: [81, 23, 1] },
                  { Player: "Pud", Drivers: [55, 16, 10] }
              ],
              BonusPoints: "\n Hulkenburg: +2 points for most places gained"
@@ -178,7 +174,6 @@ var data = {
                   { Player: "DOD", Drivers: [1, 63, 22] },
                   { Player: "Logan", Drivers: [55, 44, 23] },
                   { Player: "Vyanka", Drivers: [55, 63, 81] },
-                  { Player: "Emma", Drivers: [1, 81, 2] },
                   { Player: "Pud", Drivers: [55, 16, 10] }
               ],
               BonusPoints: "\n Magnussen: +2 Points for most places gained"
@@ -194,7 +189,6 @@ var data = {
                     { Player: "DOD", Drivers: [1, 63, 22] },
                     { Player: "Logan", Drivers: [44, 55, 23] },
                     { Player: "Vyanka", Drivers: [55, 81, 63] },
-                    { Player: "Emma", Drivers: [1, 81, 2] },
                     { Player: "Pud", Drivers: [16, 55, 10] }
                 ],
                 BonusPoints: "\n As a reminder, this was a sprint so half points"
@@ -209,7 +203,6 @@ var data = {
                    { Player: "DOD", Drivers: [1, 63, 22] },
                    { Player: "Logan", Drivers: [55, 44, 23] },
                    { Player: "Vyanka", Drivers: [55, 63, 81] },
-                   { Player: "Emma", Drivers: [1, 81, 2] },
                    { Player: "Pud", Drivers: [16, 55, 10] }
                ],
                BonusPoints: "\n Hamilton: +2 points for most places gained \n Hamilton: +5 points for spring/race differential"
@@ -225,7 +218,6 @@ var data = {
                      { Player: "DOD", Drivers: [1, 22, 63] },
                      { Player: "Logan", Drivers: [55, 23, 44] },
                      { Player: "Vyanka", Drivers: [55, 81, 63] },
-                     { Player: "Emma", Drivers: [1, 81, 2] },
                      { Player: "Pud", Drivers: [16, 55, 10] }
                  ],
                  BonusPoints: "\n As a reminder, this was a sprint so half points"
@@ -240,7 +232,6 @@ var data = {
                       { Player: "DOD", Drivers: [1, 22, 63] },
                       { Player: "Logan", Drivers: [55, 44, 23] },
                       { Player: "Vyanka", Drivers: [55, 63, 81] },
-                      { Player: "Emma", Drivers: [1, 81, 2] },
                       { Player: "Pud", Drivers: [16, 55, 10] }
                   ],
                   BonusPoints: "\n Alonso: +2 points for most places gained"
