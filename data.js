@@ -58,7 +58,7 @@ var data = {
             Number: 20,
             Name: "Kevin Magnussen",
             Team: "Haas",
-            Points: 2
+            Points: 4
         },
         {
             Number: 22,
@@ -236,6 +236,21 @@ var data = {
                   ],
                   BonusPoints: "\n Alonso: +2 points for most places gained"
       
-                  }
+                  },
+                  {
+                   Name: "Miami GP",
+                   Date: "2023-05-05",
+                   Finish: [1, 4, 16, 81, 55, 44, 63, 11, 18, 22, 27, 20, 3, 31, 24, 10, 2, 77, 14, 23],
+                   Picks: [
+                       { Player: "Nick", Drivers: [4, 44, 22] },
+                       { Player: "Bridget", Drivers: [4, 81, 63] },
+                       { Player: "DOD", Drivers: [1, 63, 22] },
+                       { Player: "Logan", Drivers: [55, 44, 23] },
+                       { Player: "Vyanka", Drivers: [81, 55, 63] },
+                       { Player: "Pud", Drivers: [16, 55, 10] }
+                   ],
+                   BonusPoints: "\n Magnussen: +2 points for most places gained"
+       
+                   }
     ]
 }
