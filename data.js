@@ -238,7 +238,7 @@ var data = {
       
                   },
                   {
-                   Name: "Miami GP",
+                   Name: "Emilia Romagna GP",
                    Date: "2023-05-05",
                    Finish: [1, 4, 16, 81, 55, 44, 63, 11, 18, 22, 27, 20, 3, 31, 24, 10, 2, 77, 14, 23],
                    Picks: [
@@ -247,7 +247,7 @@ var data = {
                        { Player: "DOD", Drivers: [1, 63, 22] },
                        { Player: "Logan", Drivers: [55, 44, 23] },
                        { Player: "Vyanka", Drivers: [81, 55, 63] },
-                       { Player: "Pud", Drivers: [16, 55, 10] }
+                       { Player: "Pud", Drivers: [16, 55, d] }
                    ],
                    BonusPoints: "\n Magnussen: +2 points for most places gained"
        
