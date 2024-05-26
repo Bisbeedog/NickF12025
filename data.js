@@ -239,7 +239,7 @@ var data = {
                   },
                   {
                    Name: "Emilia Romagna GP",
-                   Date: "2024-05-17",
+                   Date: "2024-05-19",
                    Finish: [1, 4, 16, 81, 55, 44, 63, 11, 18, 22, 27, 20, 3, 31, 24, 10, 2, 77, 14, 23],
                    Picks: [
                        { Player: "Nick", Drivers: [4, 44, 22] },
@@ -251,6 +251,21 @@ var data = {
                    ],
                    BonusPoints: "\n Magnussen: +2 points for most places gained"
        
-                   }
+                   },
+                   {
+                    Name: "Monaco",
+                    Date: "2024-05-26",
+                    Finish: [16, 81, 55, 4, 63, 1, 44, 22, 23, 10, 14, 3, 77, 18, 2, 24, 31, 11, 27, 20],
+                    Picks: [
+                        { Player: "Nick", Drivers: [4, 44, 22] },
+                        { Player: "Bridget", Drivers: [81, 4, 63] },
+                        { Player: "DOD", Drivers: [63, 1, 22] },
+                        { Player: "Logan", Drivers: [55, 44, 23] },
+                        { Player: "Vyanka", Drivers: [81, 55, 63] },
+                        { Player: "Pud", Drivers: [16, 55, 10] }
+                    ],
+                    BonusPoints: "\n Bottas : +2 points for most places gained"
+        
+                    }
     ]
 }
