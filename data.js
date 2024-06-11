@@ -85,7 +85,7 @@ var data = {
             Number: 31,
             Name: "Esteban Ocon",
             Team: "Alpine",
-            Points: 2
+            Points: 4
         },
         {
             Number: 38,
@@ -266,6 +266,21 @@ var data = {
                     ],
                     BonusPoints: "\n Bottas : +2 points for most places gained"
         
-                    }
+                    },
+                    {
+                     Name: "Canadian GP",
+                     Date: "2024-06-09",
+                     Finish: [1, 4, 63, 44, 81, 14, 18, 3, 10, 31, 27, 20, 77, 22, 24, 55, 23, 11, 16, 2],
+                     Picks: [
+                         { Player: "Nick", Drivers: [4, 44, 22] },
+                         { Player: "Bridget", Drivers: [4, 63, 81] },
+                         { Player: "DOD", Drivers: [1, 63, 22] },
+                         { Player: "Logan", Drivers: [44, 55, 23] },
+                         { Player: "Vyanka", Drivers: [63, 81, 55] },
+                         { Player: "Pud", Drivers: [10, 55, 16] }
+                     ],
+                     BonusPoints: "\n Ocon : +2 points for most places gained"
+         
+                     }
     ]
 }
