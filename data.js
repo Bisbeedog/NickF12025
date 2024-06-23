@@ -36,7 +36,8 @@ var data = {
         {
             Number: 11,
             Name: "Sergio Perez",
-            Team: "Red Bull"
+            Team: "Red Bull",
+            Points: 2
         },
         {
             Number: 14,
@@ -281,6 +282,21 @@ var data = {
                      ],
                      BonusPoints: "\n Ocon : +2 points for most places gained"
          
-                     }
+                     },
+                     {
+                      Name: "Spanish GP",
+                      Date: "2024-06-23",
+                      Finish: [1, 4, 44, 63, 16, 55, 81, 11, 10, 31, 27, 14, 24, 18, 3, 77, 20, 23, 22, 2],
+                      Picks: [
+                          { Player: "Nick", Drivers: [4, 44, 22] },
+                          { Player: "Bridget", Drivers: [4, 63, 81] },
+                          { Player: "DOD", Drivers: [1, 63, 22] },
+                          { Player: "Logan", Drivers: [44, 55, 23] },
+                          { Player: "Vyanka", Drivers: [63, 55, 81] },
+                          { Player: "Pud", Drivers: [55, 10, 16] }
+                      ],
+                      BonusPoints: "\n Perez : +2 points for most places gained"
+          
+                      }
     ]
 }
