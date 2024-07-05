@@ -4,8 +4,8 @@ var data = {
         { Name: "DOD" },
         { Name: "Pud" },
         { Name: "Logan", Points:-21},
-        { Name: "Vyanka"},
-        { Name: "Bridget"}
+        { Name: "Vyanka", Points: 2},
+        { Name: "Bridget", Points: 2}
     ],
     Driver: [
         {
@@ -117,7 +117,8 @@ var data = {
         {
             Number: 81,
             Name: "Oscar Piastri",
-            Team: "Mclaren"
+            Team: "Mclaren",
+            Points: 2
         }
     ],
     Race: [
@@ -297,6 +298,36 @@ var data = {
                       ],
                       BonusPoints: "\n Perez : +2 points for most places gained"
           
-                      }
+                      },
+                      {
+                       Name: "Austrian GP Sprint",
+                       Date: "2024-06-29",
+                       Finish: [1, 81, 4, 63, 55, 44, 16, 11, 20, 18, 31, 10, 22, 3, 14, 2, 23, 77, 27, 24],
+                       Picks: [
+                           { Player: "Nick", Drivers: [4, 44, 22] },
+                           { Player: "Bridget", Drivers: [81, 4, 63] },
+                           { Player: "DOD", Drivers: [1, 63, 22] },
+                           { Player: "Logan", Drivers: [55, 44, 23] },
+                           { Player: "Vyanka", Drivers: [81, 63, 55] },
+                           { Player: "Pud", Drivers: [55, 16, 10] }
+                       ],
+                       BonusPoints: "As a reminder, this was a sprint so half points"
+           
+                       },
+                       {
+                        Name: "Austrian GP",
+                        Date: "2024-06-30",
+                        Finish: [63, 81, 55, 44, 1, 27, 11, 20, 3, 10, 16, 31, 18, 22, 23, 77, 24, 14, 2, 4],
+                        Picks: [
+                            { Player: "Nick", Drivers: [44, 22, 4] },
+                            { Player: "Bridget", Drivers: [63, 81, 4] },
+                            { Player: "DOD", Drivers: [63, 1, 22] },
+                            { Player: "Logan", Drivers: [55, 44, 23] },
+                            { Player: "Vyanka", Drivers: [63, 81, 55] },
+                            { Player: "Pud", Drivers: [55, 10, 16] }
+                        ],
+                        BonusPoints: "\n Piastri : +2 points for most places gained"
+            
+                        }
     ]
 }
