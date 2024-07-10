@@ -328,6 +328,21 @@ var data = {
                         ],
                         BonusPoints: "\n Piastri : +2 points for most places gained"
             
-                        }
+                        },
+                        {
+                         Name: "British GP",
+                         Date: "2024-07-07",
+                         Finish: [44, 1, 4, 81, 55, 27, 18, 14, 23, 22, 2, 20, 3, 16, 77, 31, 11, 24, 63, 10],
+                         Picks: [
+                             { Player: "Nick", Drivers: [44, 4, 22] },
+                             { Player: "Bridget", Drivers: [4, 81, 63] },
+                             { Player: "DOD", Drivers: [1, 22, 63] },
+                             { Player: "Logan", Drivers: [44, 55, 23] },
+                             { Player: "Vyanka", Drivers: [81, 55, 63] },
+                             { Player: "Pud", Drivers: [55, 16, 10] }
+                         ],
+                         BonusPoints: "\n Magnussen : +2 points for most places gained"
+             
+                         }
     ]
 }
