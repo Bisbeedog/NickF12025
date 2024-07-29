@@ -1,17 +1,18 @@
 var data = {
     Player: [
         { Name: "Nick", Points: 7 },
-        { Name: "DOD" },
+        { Name: "DOD", Points: 2 },
         { Name: "Pud" },
         { Name: "Logan", Points:-21},
-        { Name: "Vyanka", Points: 2},
-        { Name: "Bridget", Points: 2}
+        { Name: "Vyanka", Points: 4},
+        { Name: "Bridget", Points: 4}
     ],
     Driver: [
         {
             Number: 1,
             Name: "Max Verstappen",
-            Team: "Red Bull"
+            Team: "Red Bull",
+            Point: 2
         },
         {
             Number: 2,
@@ -107,7 +108,8 @@ var data = {
         {
             Number: 63,
             Name: "George Russel",
-            Team: "Mercedes"
+            Team: "Mercedes",
+            Points: 2
         },
         {
             Number: 77,
@@ -356,8 +358,23 @@ var data = {
                               { Player: "Vyanka", Drivers: [81, 55, 63] },
                               { Player: "Pud", Drivers: [16, 55, 10] }
                           ],
-                          BonusPoints: "\n Perez : +2 points for most places gained"
+                          BonusPoints: "\n Perez/Russell: +2 points for most places gained"
               
-                          }
+                          },
+                          {
+                           Name: "Belgian GP",
+                           Date: "2024-07-21",
+                           Finish: [44, 81, 16, 1, 4, 55, 11, 14, 31, 3, 18, 23, 10, 20, 77, 22, 2, 27, 24, 63],
+                           Picks: [
+                               { Player: "Nick", Drivers: [44, 4, 22] },
+                               { Player: "Bridget", Drivers: [81, 4, 63] },
+                               { Player: "DOD", Drivers: [1, 22, 63] },
+                               { Player: "Logan", Drivers: [44, 55, 23] },
+                               { Player: "Vyanka", Drivers: [81, 55, 63] },
+                               { Player: "Pud", Drivers: [16, 55, 10] }
+                           ],
+                           BonusPoints: "\n Verstappen : +2 points for most places gained"
+               
+                           }
     ]
 }
