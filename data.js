@@ -1,10 +1,10 @@
 var data = {
     Player: [
-        { Name: "Nick", Points: 7 },
+        { Name: "Nick", Points: 9 },
         { Name: "DOD", Points: 2 },
-        { Name: "Pud" },
-        { Name: "Logan", Points:-21},
-        { Name: "Vyanka", Points: 4},
+        { Name: "Pud", Points: 2},
+        { Name: "Logan", Points:-19},
+        { Name: "Vyanka", Points: 6},
         { Name: "Bridget", Points: 4}
     ],
     Driver: [
@@ -98,12 +98,13 @@ var data = {
             Number: 44,
             Name: "Lewis Hamilton",
             Team: "Mercedes",
-            Points: 7
+            Points: 9
         },
         {
             Number: 55,
             Name: "Carlos Sainz",
-            Team: "Ferrari"
+            Team: "Ferrari",
+            Points: 2
         },
         {
             Number: 63,
@@ -375,6 +376,21 @@ var data = {
                            ],
                            BonusPoints: "\n Verstappen : +2 points for most places gained"
                
-                           }
+                           },
+                           {
+                            Name: "Dutch GP",
+                            Date: "2024-08-25",
+                            Finish: [4, 1, 16, 81, 55, 11, 63, 44, 10, 14, 27, 3, 18, 23, 31, 2, 22, 20, 77, 24],
+                            Picks: [
+                                { Player: "Nick", Drivers: [4, 44, 22] },
+                                { Player: "Bridget", Drivers: [4, 81, 63] },
+                                { Player: "DOD", Drivers: [1, 63, 22] },
+                                { Player: "Logan", Drivers: [55, 44, 23] },
+                                { Player: "Vyanka", Drivers: [81, 55, 63] },
+                                { Player: "Pud", Drivers: [16, 55, 10] }
+                            ],
+                            BonusPoints: "\n Hamilton and Sainz: +2 points for most places gained"
+                
+                            }
     ]
 }
