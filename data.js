@@ -95,6 +95,12 @@ var data = {
             Team: "Ferrari"
         },
         {
+            Number: 43,
+            Name: "Franco Colapinto",
+            Team: "Williams",
+            Points: 2
+        },
+        {
             Number: 44,
             Name: "Lewis Hamilton",
             Team: "Mercedes",
@@ -391,6 +397,21 @@ var data = {
                             ],
                             BonusPoints: "\n Hamilton and Sainz: +2 points for most places gained"
                 
-                            }
+                            },
+                            {
+                             Name: "Italian GP",
+                             Date: "2024-09-01",
+                             Finish: [16, 81, 4, 55, 44, 1, 63, 11, 23, 20, 14, 43, 3, 3, 31, 10, 77, 27, 24, 18, 22],
+                             Picks: [
+                                 { Player: "Nick", Drivers: [4, 44, 22] },
+                                 { Player: "Bridget", Drivers: [4, 81, 63] },
+                                 { Player: "DOD", Drivers: [1, 63, 22] },
+                                 { Player: "Logan", Drivers: [55, 44, 23] },
+                                 { Player: "Vyanka", Drivers: [81, 55, 63] },
+                                 { Player: "Pud", Drivers: [16, 55, 10] }
+                             ],
+                             BonusPoints: "\n Franco Colapinto: +2 points for most places gained"
+                 
+                             }
     ]
 }
