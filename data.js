@@ -1,18 +1,18 @@
 var data = {
     Player: [
-        { Name: "Nick", Points: 9 },
+        { Name: "Nick", Points: 11 },
         { Name: "DOD", Points: 2 },
         { Name: "Pud", Points: 2},
         { Name: "Logan", Points:-19},
         { Name: "Vyanka", Points: 6},
-        { Name: "Bridget", Points: 4}
+        { Name: "Bridget", Points: 6}
     ],
     Driver: [
         {
             Number: 1,
             Name: "Max Verstappen",
             Team: "Red Bull",
-            Point: 2
+            Points: 2
         },
         {
             Number: 2,
@@ -27,7 +27,8 @@ var data = {
         {
             Number: 4,
             Name: "Lando Norris",
-            Team: "McLaren"
+            Team: "McLaren",
+            Points: 2
         },
         {
             Number: 10,
@@ -412,6 +413,21 @@ var data = {
                              ],
                              BonusPoints: "\n Franco Colapinto: +2 points for most places gained"
                  
-                             }
+                             },
+                             {
+                              Name: "Italian GP",
+                              Date: "2024-09-01",
+                              Finish: [81, 16, 63, 4, 1, 14, 23, 43, 44, 50, 27, 10, 3, 24, 31, 77, 11, 55, 18, 22],
+                              Picks: [
+                                  { Player: "Nick", Drivers: [4, 44, 22] },
+                                  { Player: "Bridget", Drivers: [81, 63, 4] },
+                                  { Player: "DOD", Drivers: [63, 1, 22] },
+                                  { Player: "Logan", Drivers: [23, 44, 55] },
+                                  { Player: "Vyanka", Drivers: [81, 63, 55] },
+                                  { Player: "Pud", Drivers: [16, 10, 55] }
+                              ],
+                              BonusPoints: "\n Lando Norris: +2 points for most places gained"
+                  
+                              }
     ]
 }
