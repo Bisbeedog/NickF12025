@@ -93,7 +93,7 @@ var data = {
         {
             Number: 38,
             Name: "Oliver Bearman",
-            Team: "Ferrari"
+            Team: "Ferrari/Haas"
         },
         {
             Number: 43,
@@ -106,6 +106,11 @@ var data = {
             Name: "Lewis Hamilton",
             Team: "Mercedes",
             Points: 9
+        },
+        {
+            Number: 50,
+            Name: "Also Oliver Bearman lmao",
+            Team: "Ferrari/Haas"
         },
         {
             Number: 55,
@@ -415,8 +420,8 @@ var data = {
                  
                              },
                              {
-                              Name: "Italian GP",
-                              Date: "2024-09-01",
+                              Name: "Azerbaijan GP",
+                              Date: "2024-09-15",
                               Finish: [81, 16, 63, 4, 1, 14, 23, 43, 44, 50, 27, 10, 3, 24, 31, 77, 11, 55, 18, 22],
                               Picks: [
                                   { Player: "Nick", Drivers: [4, 44, 22] },
