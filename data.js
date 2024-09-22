@@ -61,7 +61,7 @@ var data = {
             Number: 20,
             Name: "Kevin Magnussen",
             Team: "Haas",
-            Points: 4
+            Points: 6
         },
         {
             Number: 22,
@@ -433,6 +433,21 @@ var data = {
                               ],
                               BonusPoints: "\n Lando Norris: +2 points for most places gained"
                   
-                              }
+                              },
+                              {
+                               Name: "Singapore GP",
+                               Date: "2024-09-15",
+                               Finish: [4, 1, 81, 63, 16, 44, 55, 14, 27, 11, 43, 22, 31, 18, 24, 77, 10, 3, 20, 23],
+                               Picks: [
+                                   { Player: "Nick", Drivers: [4, 44, 22] },
+                                   { Player: "Bridget", Drivers: [4, 81, 63] },
+                                   { Player: "DOD", Drivers: [1, 63, 22] },
+                                   { Player: "Logan", Drivers: [44, 55, 23] },
+                                   { Player: "Vyanka", Drivers: [81, 63, 55] },
+                                   { Player: "Pud", Drivers: [16, 55, 10] }
+                               ],
+                               BonusPoints: "\n Kevin Magnussen: +2 points for most places gained"
+                   
+                               }
     ]
 }
