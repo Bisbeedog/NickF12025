@@ -85,6 +85,12 @@ var data = {
             Points: 2
         },
         {
+            Number: 30,
+            Name: "Liam Lawson",
+            Team: "RB",
+            Points: 0
+        },
+        {
             Number: 31,
             Name: "Esteban Ocon",
             Team: "Alpine",
@@ -448,6 +454,51 @@ var data = {
                                ],
                                BonusPoints: "\n Kevin Magnussen: +2 points for most places gained"
                    
-                               }
+                               },
+                               {
+                                Name: "US GP Sprint",
+                                Date: "2024-10-19",
+                                Finish: [1, 55, 4, 16, 63, 44, 20, 27, 11, 81, 22, 43, 18, 10, 31, 30, 23, 14, 24, 77],
+                                Picks: [
+                                    { Player: "Nick", Drivers: [4, 44, 22] },
+                                    { Player: "Bridget", Drivers: [4, 63, 81] },
+                                    { Player: "DOD", Drivers: [1, 63, 22] },
+                                    { Player: "Logan", Drivers: [55, 44, 23] },
+                                    { Player: "Vyanka", Drivers: [55, 63, 81] },
+                                    { Player: "Pud", Drivers: [55, 16, 10] }
+                                ],
+                                BonusPoints: "NA"
+                    
+                                },
+                                {
+                                 Name: "United States GP",
+                                 Date: "2024-10-20",
+                                 Finish: [16, 55, 1, 4, 81, 63, 11, 27, 30, 43, 20, 10, 14, 22, 18, 23, 77, 31, 24, 44],
+                                 Picks: [
+                                     { Player: "Nick", Drivers: [4, 22, 44] },
+                                     { Player: "Bridget", Drivers: [4, 81, 63] },
+                                     { Player: "DOD", Drivers: [1, 63, 22] },
+                                     { Player: "Logan", Drivers: [55, 23, 44] },
+                                     { Player: "Vyanka", Drivers: [55, 81, 63] },
+                                     { Player: "Pud", Drivers: [16, 55, 10] }
+                                 ],
+                                 BonusPoints: "\n George Russell: +2 points for most places gained"
+                     
+                                 },
+                                 {
+                                  Name: "Mexican GP",
+                                  Date: "2024-10-27",
+                                  Finish: [55, 4, 16, 44, 63, 1, 20, 81, 27, 10, 18, 43, 31, 77, 24, 30, 11, 14, 23, 22],
+                                  Picks: [
+                                      { Player: "Nick", Drivers: [4, 44, 22] },
+                                      { Player: "Bridget", Drivers: [4, 63, 81] },
+                                      { Player: "DOD", Drivers: [63, 1, 22] },
+                                      { Player: "Logan", Drivers: [55, 44, 23] },
+                                      { Player: "Vyanka", Drivers: [55, 63, 81] },
+                                      { Player: "Pud", Drivers: [55, 16, 10] }
+                                  ],
+                                  BonusPoints: "\n Oscar Piastri: +2 points for most places gained"
+                      
+                                  }
     ]
 }
