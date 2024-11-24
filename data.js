@@ -1,9 +1,9 @@
 var data = {
     Player: [
-        { Name: "Nick", Points: 11 },
-        { Name: "DOD", Points: 2 },
+        { Name: "Nick", Points: 13 },
+        { Name: "DOD", Points: 4 },
         { Name: "Pud", Points: 2},
-        { Name: "Logan", Points:-19},
+        { Name: "Logan", Points:-17},
         { Name: "Vyanka", Points: 6},
         { Name: "Bridget", Points: 6}
     ],
@@ -111,7 +111,7 @@ var data = {
             Number: 44,
             Name: "Lewis Hamilton",
             Team: "Mercedes",
-            Points: 9
+            Points: 11
         },
         {
             Number: 50,
@@ -499,6 +499,51 @@ var data = {
                                   ],
                                   BonusPoints: "\n Oscar Piastri: +2 points for most places gained"
                       
-                                  }
+                                  },
+                                  {
+                                   Name: "Brazilian GP Sprint",
+                                   Date: "2024-11-02",
+                                   Finish: [4, 81, 1, 16, 55, 63, 10, 11, 30, 23, 44, 43, 31, 50, 22, 77, 24, 14, 18, 27],
+                                   Picks: [
+                                       { Player: "Nick", Drivers: [4, 44, 22] },
+                                       { Player: "Bridget", Drivers: [4, 81, 63] },
+                                       { Player: "DOD", Drivers: [1, 63, 22] },
+                                       { Player: "Logan", Drivers: [55, 23, 44] },
+                                       { Player: "Vyanka", Drivers: [81, 55, 63] },
+                                       { Player: "Pud", Drivers: [16, 55, 10] }
+                                   ],
+                                   BonusPoints: "\n N/A"
+                       
+                                   },
+                                   {
+                                    Name: "Brazilian GP",
+                                    Date: "2024-11-03",
+                                    Finish: [1, 31, 10, 63, 16, 4, 22, 81, 30, 44, 11, 50, 77, 14, 24, 24, 55, 43, 23, 18, 27],
+                                    Picks: [
+                                        { Player: "Nick", Drivers: [4, 22, 44] },
+                                        { Player: "Bridget", Drivers: [63, 4, 81] },
+                                        { Player: "DOD", Drivers: [1, 63, 22] },
+                                        { Player: "Logan", Drivers: [44, 55, 23] },
+                                        { Player: "Vyanka", Drivers: [63, 81, 55] },
+                                        { Player: "Pud", Drivers: [10, 16, 55] }
+                                    ],
+                                    BonusPoints: "\n Max Verstappen: +2 points for most places gained"
+                        
+                                    },
+                                    {
+                                     Name: "Las Vegas GP",
+                                     Date: "2024-11-23",
+                                     Finish: [55, 4, 16, 44, 63, 1, 20, 81, 27, 10, 18, 43, 31, 77, 24, 30, 11, 14, 23, 22],
+                                     Picks: [
+                                         { Player: "Nick", Drivers: [4, 44, 22] },
+                                         { Player: "Bridget", Drivers: [4, 63, 81] },
+                                         { Player: "DOD", Drivers: [63, 1, 22] },
+                                         { Player: "Logan", Drivers: [55, 44, 23] },
+                                         { Player: "Vyanka", Drivers: [55, 63, 81] },
+                                         { Player: "Pud", Drivers: [55, 16, 10] }
+                                     ],
+                                     BonusPoints: "\n Hamilton: +2 points for most places gained"
+                         
+                                     }
     ]
 }
