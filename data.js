@@ -533,13 +533,13 @@ var data = {
                                     {
                                      Name: "Las Vegas GP",
                                      Date: "2024-11-23",
-                                     Finish: [55, 4, 16, 44, 63, 1, 20, 81, 27, 10, 18, 43, 31, 77, 24, 30, 11, 14, 23, 22],
+                                     Finish: [63, 44, 55, 16, 1, 4, 81, 27, 22, 11, 14, 20, 24, 43, 18, 30, 31, 77, 23, 10],
                                      Picks: [
-                                         { Player: "Nick", Drivers: [4, 44, 22] },
-                                         { Player: "Bridget", Drivers: [4, 63, 81] },
+                                         { Player: "Nick", Drivers: [44, 4, 22] },
+                                         { Player: "Bridget", Drivers: [63, 4, 81] },
                                          { Player: "DOD", Drivers: [63, 1, 22] },
-                                         { Player: "Logan", Drivers: [55, 44, 23] },
-                                         { Player: "Vyanka", Drivers: [55, 63, 81] },
+                                         { Player: "Logan", Drivers: [44, 55, 23] },
+                                         { Player: "Vyanka", Drivers: [63, 55, 81] },
                                          { Player: "Pud", Drivers: [55, 16, 10] }
                                      ],
                                      BonusPoints: "\n Hamilton: +2 points for most places gained"
