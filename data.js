@@ -2,7 +2,7 @@ var data = {
     Player: [
         { Name: "Nick", Points: 13 },
         { Name: "DOD", Points: 4 },
-        { Name: "Pud", Points: 2},
+        { Name: "Pud", Points: 6},
         { Name: "Logan", Points:-17},
         { Name: "Vyanka", Points: 6},
         { Name: "Bridget", Points: 6}
@@ -33,7 +33,8 @@ var data = {
         {
             Number: 10,
             Name: "Pierre Gasly",
-            Team: "Alpine"
+            Team: "Alpine",
+            Points: 2
         },
         {
             Number: 11,
@@ -50,7 +51,8 @@ var data = {
         {
             Number: 16,
             Name: "Charles LeClerc",
-            Team: "Ferrari"
+            Team: "Ferrari",
+            Points: 2
         },
         {
             Number: 18,
@@ -123,6 +125,12 @@ var data = {
             Name: "Carlos Sainz",
             Team: "Ferrari",
             Points: 2
+        },
+        {
+            Number: 61,
+            Name: "Jack Doohan",
+            Team: "Alpine",
+            Points: 0
         },
         {
             Number: 63,
@@ -544,6 +552,51 @@ var data = {
                                      ],
                                      BonusPoints: "\n Hamilton: +2 points for most places gained"
                          
-                                     }
+                                     },
+                                     {
+                                      Name: "Qatar GP Sprint",
+                                      Date: "2024-12-01",
+                                      Finish: [81, 4, 63, 55, 16, 44, 27, 1, 10, 24, 14, 77, 18, 31, 23, 30, 22, 43, 24, 11],
+                                      Picks: [
+                                          { Player: "Nick", Drivers: [4, 44, 22] },
+                                          { Player: "Bridget", Drivers: [81, 4, 63] },
+                                          { Player: "DOD", Drivers: [63, 1, 22] },
+                                          { Player: "Logan", Drivers: [55, 44, 23] },
+                                          { Player: "Vyanka", Drivers: [81, 63, 55] },
+                                          { Player: "Pud", Drivers: [55, 16, 10] }
+                                      ],
+                                      BonusPoints: "\n N/A"
+                          
+                                      },
+                                      {
+                                       Name: "Qatar GP",
+                                       Date: "2024-12-02",
+                                       Finish: [1, 16, 81, 63, 10, 55, 14, 24, 20, 4, 77, 44, 22, 30, 23, 27, 11, 18, 43, 31],
+                                       Picks: [
+                                           { Player: "Nick", Drivers: [4, 44, 22] },
+                                           { Player: "Bridget", Drivers: [81, 63, 4] },
+                                           { Player: "DOD", Drivers: [1, 63, 22] },
+                                           { Player: "Logan", Drivers: [55, 44, 23] },
+                                           { Player: "Vyanka", Drivers: [81, 63, 55] },
+                                           { Player: "Pud", Drivers: [16, 10, 55] }
+                                       ],
+                                       BonusPoints: "\n Gasly: +2  points for most places gained"
+                           
+                                       },
+                                       {
+                                        Name: "Abu Dhabi GP",
+                                        Date: "2024-12-08",
+                                        Finish: [4, 55, 16, 44, 63, 1, 10, 27, 14, 81, 23, 22, 24, 18, 61, 20, 30, 77, 43, 11],
+                                        Picks: [
+                                            { Player: "Nick", Drivers: [4, 44, 22] },
+                                            { Player: "Bridget", Drivers: [4, 63, 81] },
+                                            { Player: "DOD", Drivers: [63, 1, 22] },
+                                            { Player: "Logan", Drivers: [55, 44, 23] },
+                                            { Player: "Vyanka", Drivers: [55, 63, 81] },
+                                            { Player: "Pud", Drivers: [55, 16, 10] }
+                                        ],
+                                        BonusPoints: "\n Leclerc: +2  points for most places gained"
+                            
+                                        }
     ]
 }
