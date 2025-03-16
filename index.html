@@ -502,10 +502,10 @@
                         playerFinishTR.appendChild(playerFinishPoints);
                         var playerFinishDrivers = document.createElement("tr");
                         var driverList = "";
-                        for (var driverFinishIndex = 0; driverFinishIndex < 3; driverFinishIndex++) {
+                        for (var driverFinishIndex = 0; driverFinishIndex < 4; driverFinishIndex++) {
                             var found = data.Driver.find(element => element.Number == currentRace.Picks[playerFinishIndex].Drivers[driverFinishIndex]);
                             driverList += found.Name;
-                            if (driverFinishIndex < 2) {
+                            if (driverFinishIndex < 3) {
                                 driverList += "(" + currentRace.Picks[playerFinishIndex].DriverPicks[driverFinishIndex] + ")" + ", ";
                             }
                             else {
