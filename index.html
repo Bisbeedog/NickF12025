@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <link rel="icon" type="image/png" href="f1.png" />
 
-    <title>F1 2024 Competition</title>
-    <meta name="description" content="F1 2024 Competition">
+    <title>F1 2025 Competition</title>
+    <meta name="description" content="F1 2025 Competition">
     <meta name="author" content="Nick">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -40,7 +40,7 @@
                     var PointAverages;
                     
                     for(var i = 1; i < headerArray.length; i++){
-                            array.push(chartArray[raceIndex+1][i]  +  (currentRace.Picks[currentRace.Picks.findIndex(element => element.Player == headerArray[i])].Points-32));
+                            array.push(chartArray[raceIndex+1][i]  +  (currentRace.Picks[currentRace.Picks.findIndex(element => element.Player == headerArray[i])].Points-42));
                     }
                     chartArray.push(array);
                 }
@@ -89,7 +89,7 @@
                     var array = [];
                     array.push((raceIndex+1).toString());
                     
-                    for(var i = 0; i < 21; i++){
+                    for(var i = 0; i < 20; i++){
                         for(var z = 0; z < 20; z++){
                             if(currentRace.Finish[z]==data.Driver[i].Number){
                                 var result;
