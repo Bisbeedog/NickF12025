@@ -1,11 +1,11 @@
 var data = {
     Player: [
-        { Name: "Nick", Points: 2 },
+        { Name: "Nick", Points: 4 },
         { Name: "DOD", Points: 0 },
         { Name: "Pud", Points: 0},
-        { Name: "Logan", Points:2},
+        { Name: "Logan", Points:4},
         { Name: "Dynamic Racing Sloths", Points: 2},
-        { Name: "Baskin Mommins", Points: 0}
+        { Name: "Baskin Mommins", Points: 2 }
     ],
     Driver: [
         {
@@ -90,7 +90,7 @@ var data = {
             Number: 30,
             Name: "Liam Lawson",
             Team: "Red Bull",
-            Points: 0
+            Points: 2
         },
         {
             Number: 31,
@@ -142,7 +142,36 @@ var data = {
                 { Player: "Dynamic Racing Sloths", Drivers: [63, 12, 81, 55] },
                 { Player: "Pud", Drivers: [4, 16, 87, 55] }
             ],
-            BonusPoints: "+2 points for Kimi Antonelli for fastest lap"
+            BonusPoints: "+2 points for Kimi Antonelli for most places gained"
            },
+           {
+            Name: "Chinese GP Sprint",
+            Date: "2024-03-22",
+            Finish: [44, 81, 1, 63, 16, 22, 12, 4, 18, 14, 23, 10, 6, 30, 87, 31, 55, 5, 27, 7],
+            Picks: [
+                { Player: "Nick", Drivers: [12, 4, 30, 7] },
+                { Player: "Baskin Mommins", Drivers: [81, 63, 30, 7] },
+                { Player: "DOD", Drivers: [44, 1, 22, 55] },
+                { Player: "Logan", Drivers: [44, 12, 18, 30] },
+                { Player: "Dynamic Racing Sloths", Drivers: [81, 63, 12, 55] },
+                { Player: "Pud", Drivers: [16, 4, 87, 55] }
+            ],
+            BonusPoints: "None for sprint"
+           },
+           {
+            Name: "Australian GP",
+            Date: "2024-03-23",
+            Finish: [81, 4, 63, 1, 31, 12, 23, 87, 18, 55, 6, 30, 7, 5, 27, 22, 14, 16, 44, 10],
+            Picks: [
+                { Player: "Nick", Drivers: [4, 12, 30, 7] },
+                { Player: "Baskin Mommins", Drivers: [81, 63, 30, 7] },
+                { Player: "DOD", Drivers: [1, 55, 44, 22] },
+                { Player: "Logan", Drivers: [12, 18, 30, 44] },
+                { Player: "Dynamic Racing Sloths", Drivers: [81, 63, 12, 55] },
+                { Player: "Pud", Drivers: [4, 16, 55, 87] }
+            ],
+            BonusPoints: "+2 points for Liam Lawson for most places gained"
+           },
+           
     ]
 }
