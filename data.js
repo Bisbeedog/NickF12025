@@ -1,9 +1,9 @@
 var data = {
     Player: [
         { Name: "Nick", Points: 4 },
-        { Name: "DOD", Points: 0 },
+        { Name: "Yuki and Friends", Points: 0 },
         { Name: "Pud", Points: 0},
-        { Name: "Logan", Points:4},
+        { Name: "Strollin' Outta Q1", Points:4},
         { Name: "Dynamic Racing Sloths", Points: 2},
         { Name: "Baskin Mommins", Points: 2 }
     ],
@@ -137,8 +137,8 @@ var data = {
             Picks: [
                 { Player: "Nick", Drivers: [4, 12, 30, 7] },
                 { Player: "Baskin Mommins", Drivers: [63, 81, 30, 7] },
-                { Player: "DOD", Drivers: [1, 44, 22, 55] },
-                { Player: "Logan", Drivers: [12, 18, 44, 30] },
+                { Player: "Yuki and Friends", Drivers: [1, 44, 22, 55] },
+                { Player: "Strollin' Outta Q1", Drivers: [12, 18, 44, 30] },
                 { Player: "Dynamic Racing Sloths", Drivers: [63, 12, 81, 55] },
                 { Player: "Pud", Drivers: [4, 16, 87, 55] }
             ],
@@ -151,8 +151,8 @@ var data = {
             Picks: [
                 { Player: "Nick", Drivers: [12, 4, 30, 7] },
                 { Player: "Baskin Mommins", Drivers: [81, 63, 30, 7] },
-                { Player: "DOD", Drivers: [44, 1, 22, 55] },
-                { Player: "Logan", Drivers: [44, 12, 18, 30] },
+                { Player: "Yuki and Friends", Drivers: [44, 1, 22, 55] },
+                { Player: "Strollin' Outta Q1", Drivers: [44, 12, 18, 30] },
                 { Player: "Dynamic Racing Sloths", Drivers: [81, 63, 12, 55] },
                 { Player: "Pud", Drivers: [16, 4, 87, 55] }
             ],
@@ -165,8 +165,8 @@ var data = {
             Picks: [
                 { Player: "Nick", Drivers: [4, 12, 30, 7] },
                 { Player: "Baskin Mommins", Drivers: [81, 63, 30, 7] },
-                { Player: "DOD", Drivers: [1, 55, 22, 44] },
-                { Player: "Logan", Drivers: [12, 18, 30, 44] },
+                { Player: "Yuki and Friends", Drivers: [1, 55, 22, 44] },
+                { Player: "Strollin' Outta Q1", Drivers: [12, 18, 30, 44] },
                 { Player: "Dynamic Racing Sloths", Drivers: [81, 63, 12, 55] },
                 { Player: "Pud", Drivers: [4, 55, 87, 16] }
             ],
