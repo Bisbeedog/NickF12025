@@ -165,10 +165,10 @@ var data = {
             Picks: [
                 { Player: "Nick", Drivers: [4, 12, 30, 7] },
                 { Player: "Baskin Mommins", Drivers: [81, 63, 30, 7] },
-                { Player: "DOD", Drivers: [1, 55, 44, 22] },
+                { Player: "DOD", Drivers: [1, 55, 22, 44] },
                 { Player: "Logan", Drivers: [12, 18, 30, 44] },
                 { Player: "Dynamic Racing Sloths", Drivers: [81, 63, 12, 55] },
-                { Player: "Pud", Drivers: [4, 16, 55, 87] }
+                { Player: "Pud", Drivers: [4, 55, 87, 16] }
             ],
             BonusPoints: "+2 points for Liam Lawson for most places gained"
            },
