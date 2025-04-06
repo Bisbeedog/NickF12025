@@ -1,11 +1,11 @@
 var data = {
     Player: [
-        { Name: "Nick", Points: 4 },
+        { Name: "Nick", Points: 6 },
         { Name: "Yuki and Friends", Points: 0 },
         { Name: "Pud", Points: 0},
         { Name: "Strollin' Outta Q1", Points:4},
         { Name: "Dynamic Racing Sloths", Points: 2},
-        { Name: "Baskin Mommins", Points: 2 }
+        { Name: "Baskin Mommins", Points: 4 }
     ],
     Driver: [
         {
@@ -36,7 +36,7 @@ var data = {
             Number: 7,
             Name: "Jack Doohan",
             Team: "Alpine",
-            Points: 0
+            Points: 2
         },
         {
             Number: 10,
@@ -159,7 +159,7 @@ var data = {
             BonusPoints: "None for sprint"
            },
            {
-            Name: "Australian GP",
+            Name: "Chinese GP",
             Date: "2024-03-23",
             Finish: [81, 4, 63, 1, 31, 12, 23, 87, 18, 55, 6, 30, 7, 5, 27, 22, 14, 16, 44, 10],
             Picks: [
@@ -171,6 +171,20 @@ var data = {
                 { Player: "Pud", Drivers: [4, 55, 87, 16] }
             ],
             BonusPoints: "+2 points for Liam Lawson for most places gained"
+           },
+           {
+            Name: "Japanese GP",
+            Date: "2024-04-05",
+            Finish: [1, 4, 81, 16, 63, 12, 44, 6, 23, 87, 14, 22, 10, 55, 7, 27, 30, 31, 5, 18],
+            Picks: [
+                { Player: "Nick", Drivers: [4, 12, 22, 7] },
+                { Player: "Baskin Mommins", Drivers: [81, 63, 22, 7] },
+                { Player: "Yuki and Friends", Drivers: [1, 55, 22, 44] },
+                { Player: "Strollin' Outta Q1", Drivers: [12, 18, 22, 44] },
+                { Player: "Dynamic Racing Sloths", Drivers: [81, 63, 12, 55] },
+                { Player: "Pud", Drivers: [4, 55, 87, 16] }
+            ],
+            BonusPoints: "+2 points for Jack Doohan for most places gained"
            },
            
     ]
