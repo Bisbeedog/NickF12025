@@ -180,9 +180,9 @@ var data = {
                 { Player: "Nick", Drivers: [4, 12, 22, 7] },
                 { Player: "Baskin Mommins", Drivers: [81, 63, 22, 7] },
                 { Player: "Yuki and Friends", Drivers: [1, 55, 22, 44] },
-                { Player: "Strollin' Outta Q1", Drivers: [12, 18, 22, 44] },
+                { Player: "Strollin' Outta Q1", Drivers: [12, 44, 18, 22] },
                 { Player: "Dynamic Racing Sloths", Drivers: [81, 63, 12, 55] },
-                { Player: "Pud", Drivers: [4, 55, 87, 16] }
+                { Player: "Pud", Drivers: [4, 16, 55, 87] }
             ],
             BonusPoints: "+2 points for Jack Doohan for most places gained"
            },
