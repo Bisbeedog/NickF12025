@@ -126,7 +126,7 @@ var data = {
             Number: 87,
             Name: "Oliver Bearman",
             Team: "Haas",
-            Points: 0
+            Points: 2
         }
     ],
     Race: [
@@ -185,6 +185,20 @@ var data = {
                 { Player: "Pud", Drivers: [4, 16, 55, 87] }
             ],
             BonusPoints: "+2 points for Jack Doohan for most places gained"
+           },
+           {
+            Name: "Bahrain GP",
+            Date: "2024-04-13",
+            Finish: [81, 63, 4, 16, 44, 1, 10, 31, 22, 87, 12, 23, 7, 27, 6, 14, 30, 18, 5, 55],
+            Picks: [
+                { Player: "Nick", Drivers: [4, 22, 12, 7] },
+                { Player: "Baskin Mommins", Drivers: [81, 63, 22, 7] },
+                { Player: "Yuki and Friends", Drivers: [44, 1, 22, 55] },
+                { Player: "Strollin' Outta Q1", Drivers: [44, 22, 12, 18] },
+                { Player: "Dynamic Racing Sloths", Drivers: [81, 63, 12, 55] },
+                { Player: "Pud", Drivers: [4, 16, 87, 55] }
+            ],
+            BonusPoints: "+2 points for Oliver Bearman for most places gained"
            },
            
     ]
