@@ -1,8 +1,8 @@
 var data = {
     Player: [
-        { Name: "Nick", Points: 6 },
+        { Name: "Nick", Points: 8 },
         { Name: "Yuki and Friends", Points: 0 },
-        { Name: "Pud", Points: 0},
+        { Name: "Pud", Points: 2},
         { Name: "Strollin' Outta Q1", Points:4},
         { Name: "Dynamic Racing Sloths", Points: 2},
         { Name: "Baskin Mommins", Points: 4 }
@@ -18,7 +18,7 @@ var data = {
             Number: 4,
             Name: "Lando Norris",
             Team: "McLaren",
-            Points: 0
+            Points: 2
         },
         {
             Number: 5,
@@ -200,6 +200,20 @@ var data = {
             ],
             BonusPoints: "+2 points for Oliver Bearman for most places gained"
            },
+           {
+            Name: "Saudi Arabian GP",
+            Date: "2024-04-20",
+            Finish: [81, 1, 16, 4, 63, 12, 44, 55, 23, 6, 14, 30, 87, 31, 27, 18, 7, 5, 22, 10],
+            Picks: [
+                { Player: "Nick", Drivers: [4, 12, 7, 22] },
+                { Player: "Baskin Mommins", Drivers: [81, 63, 7, 22] },
+                { Player: "Yuki and Friends", Drivers: [1, 44, 55, 22] },
+                { Player: "Strollin' Outta Q1", Drivers: [12, 44, 18, 22] },
+                { Player: "Dynamic Racing Sloths", Drivers: [81, 63, 12, 55] },
+                { Player: "Pud", Drivers: [16, 4, 55, 87] }
+            ],
+            BonusPoints: "+2 points for LANDOOOOOOOOOOOOO for most places gained"
+           }
            
     ]
 }
