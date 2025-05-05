@@ -42,7 +42,7 @@ var data = {
             Number: 10,
             Name: "Pierre Gasly",
             Team: "Alpine",
-            Points: 0
+            Points: 2
         },
         {
             Number: 12,
@@ -235,12 +235,12 @@ var data = {
             Picks: [
                 { Player: "Nick", Drivers: [4, 12, 22, 7] },
                 { Player: "Baskin Mommins", Drivers: [81, 63, 22, 7] },
-                { Player: "Yuki and Friends", Drivers: [1, 44, 22, 55] },
+                { Player: "Yuki and Friends", Drivers: [1, 44, 55, 22] },
                 { Player: "Strollin' Outta Q1", Drivers: [ 12, 44, 22, 18] },
                 { Player: "Dynamic Racing Sloths", Drivers: [81, 63, 12, 55] },
                 { Player: "Pud", Drivers: [4, 16, 55, 87] }
             ],
-            BonusPoints: "None for sprint"
+            BonusPoints: "+2 points for Gasly for most places gained"
            }
            
     ]
