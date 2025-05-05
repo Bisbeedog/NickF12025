@@ -227,6 +227,20 @@ var data = {
                 { Player: "Pud", Drivers: [4, 87, 55, 16] }
             ],
             BonusPoints: "None for sprint"
+           },
+           {
+            Name: "Miami GP",
+            Date: "2024-04-21",
+            Finish: [81, 4, 63, 1, 23, 12, 16, 44, 55, 22, 6, 31, 10, 27, 14, 18, 30, 5, 87, 7],
+            Picks: [
+                { Player: "Nick", Drivers: [4, 12, 22, 7] },
+                { Player: "Baskin Mommins", Drivers: [81, 63, 22, 7] },
+                { Player: "Yuki and Friends", Drivers: [1, 44, 22, 55] },
+                { Player: "Strollin' Outta Q1", Drivers: [ 12, 44, 22, 18] },
+                { Player: "Dynamic Racing Sloths", Drivers: [81, 63, 12, 55] },
+                { Player: "Pud", Drivers: [4, 16, 55, 87] }
+            ],
+            BonusPoints: "None for sprint"
            }
            
     ]
