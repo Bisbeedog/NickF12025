@@ -1,7 +1,7 @@
 var data = {
     Player: [
-        { Name: "Nick", Points: 8 },
-        { Name: "Yuki and Friends", Points: 0 },
+        { Name: "Nick", Points: 10 },
+        { Name: "Yuki and Friends", Points: 2 },
         { Name: "Pud", Points: 2},
         { Name: "Strollin' Outta Q1", Points:4},
         { Name: "Dynamic Racing Sloths", Points: 2},
@@ -72,7 +72,7 @@ var data = {
             Number: 22,
             Name: "Yuki Tsunoda",
             Team: "RB",
-            Points: 0
+            Points: 2
         },
         {
             Number: 23,
@@ -95,6 +95,12 @@ var data = {
         {
             Number: 31,
             Name: "Esteban Ocon",
+            Team: "Haas",
+            Points: 0
+        },
+        {
+            Number: 43,
+            Name: "Franco Colapinto",
             Team: "Haas",
             Points: 0
         },
@@ -216,7 +222,7 @@ var data = {
            },
            {
             Name: "Miami GP Sprint",
-            Date: "2024-04-20",
+            Date: "2024-05-03",
             Finish: [4, 81, 44, 63, 18, 22, 12, 10, 27, 6, 23, 31, 30, 87, 5, 7, 1, 14, 55, 16],
             Picks: [
                 { Player: "Nick", Drivers: [4, 22, 12, 7] },
@@ -230,7 +236,7 @@ var data = {
            },
            {
             Name: "Miami GP",
-            Date: "2024-04-21",
+            Date: "2024-05-04",
             Finish: [81, 4, 63, 1, 23, 12, 16, 44, 55, 22, 6, 31, 10, 27, 14, 18, 30, 5, 87, 7],
             Picks: [
                 { Player: "Nick", Drivers: [4, 12, 22, 7] },
@@ -241,6 +247,20 @@ var data = {
                 { Player: "Pud", Drivers: [4, 16, 55, 87] }
             ],
             BonusPoints: "+2 points for Gasly for most places gained"
+           },
+           {
+            Name: "Miami GP",
+            Date: "2024-05-18",
+            Finish: [1, 4, 81, 44, 23, 16, 63, 55, 6, 22, 14, 27, 10, 30, 18, 43, 87, 5, 12, 31],
+            Picks: [
+                { Player: "Nick", Drivers: [4, 22, 43, 12] },
+                { Player: "Baskin Mommins", Drivers: [81, 23, 63, 10] },
+                { Player: "Yuki and Friends", Drivers: [1, 44, 55, 22] },
+                { Player: "Strollin' Outta Q1", Drivers: [ 44, 22, 18, 12] },
+                { Player: "Dynamic Racing Sloths", Drivers: [81, 63, 55, 12] },
+                { Player: "Pud", Drivers: [4, 16, 55, 87] }
+            ],
+            BonusPoints: "+2 points for YUKIIIIIIIIIIIIIIIII for most places gained"
            }
            
     ]
