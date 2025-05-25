@@ -1,6 +1,6 @@
 var data = {
     Player: [
-        { Name: "Nick", Points: 10 },
+        { Name: "Nick", Points: 12 },
         { Name: "Yuki and Friends", Points: 2 },
         { Name: "Pud", Points: 2},
         { Name: "Strollin' Outta Q1", Points:4},
@@ -101,8 +101,8 @@ var data = {
         {
             Number: 43,
             Name: "Franco Colapinto",
-            Team: "Haas",
-            Points: 0
+            Team: "Alpine",
+            Points: 2
         },
         {
             Number: 44,
@@ -254,13 +254,27 @@ var data = {
             Finish: [1, 4, 81, 44, 23, 16, 63, 55, 6, 22, 14, 27, 10, 30, 18, 43, 87, 5, 12, 31],
             Picks: [
                 { Player: "Nick", Drivers: [4, 22, 43, 12] },
-                { Player: "Baskin Mommins", Drivers: [81, 23, 63, 10] },
+                { Player: "Baskin Mommins", Drivers: [81, 23, 63, 22] },
                 { Player: "Yuki and Friends", Drivers: [1, 44, 55, 22] },
                 { Player: "Strollin' Outta Q1", Drivers: [ 44, 22, 18, 12] },
                 { Player: "Dynamic Racing Sloths", Drivers: [81, 63, 55, 12] },
                 { Player: "Pud", Drivers: [4, 16, 55, 87] }
             ],
             BonusPoints: "+2 points for YUKIIIIIIIIIIIIIIIII for most places gained"
+           },
+           {
+            Name: "Monaco GP",
+            Date: "2024-05-25",
+            Finish: [4, 16, 81, 1, 44, 6, 31, 30, 23, 55, 63, 87, 43, 5, 18, 27, 22, 12, 14, 10],
+            Picks: [
+                { Player: "Nick", Drivers: [4, 43, 22, 12] },
+                { Player: "Baskin Mommins", Drivers: [81, 23, 63, 22] },
+                { Player: "Yuki and Friends", Drivers: [1, 44, 55, 22] },
+                { Player: "Strollin' Outta Q1", Drivers: [ 44, 18, 22, 12] },
+                { Player: "Dynamic Racing Sloths", Drivers: [81, 55, 63, 12] },
+                { Player: "Pud", Drivers: [4, 16, 55, 87] }
+            ],
+            BonusPoints: "+2 points for Franco Colapinto for most places gained"
            }
            
     ]
