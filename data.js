@@ -249,7 +249,7 @@ var data = {
             BonusPoints: "+2 points for Gasly for most places gained"
            },
            {
-            Name: "Miami GP",
+            Name: "Emilia Romagna GP",
             Date: "2024-05-18",
             Finish: [1, 4, 81, 44, 23, 16, 63, 55, 6, 22, 14, 27, 10, 30, 18, 43, 87, 5, 12, 31],
             Picks: [
