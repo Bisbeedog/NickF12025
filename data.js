@@ -82,9 +82,9 @@ var data = {
         },
         {
             Number: 27,
-            Name: "Nico Hulkenburg",
+            Name: "Nico Hulkenberg",
             Team: "Kick Sauber",
-            Points: 0
+            Points: 2
         },
         {
             Number: 30,
@@ -274,7 +274,21 @@ var data = {
                 { Player: "Dynamic Racing Sloths", Drivers: [81, 55, 63, 12] },
                 { Player: "Pud", Drivers: [4, 16, 55, 87] }
             ],
-            BonusPoints: "+2 points for Franco Colapinto for most places gained"
+            BonusPoints: "+2 points for Ollie Bearman for most places gained"
+           },
+           {
+            Name: "Spanish GP",
+            Date: "2024-06-01",
+            Finish: [81, 4, 16, 63, 27, 44, 6, 10, 14, 1, 30, 5, 22, 55, 43, 31, 87, 12, 23, 18],
+            Picks: [
+                { Player: "Nick", Drivers: [4, 43, 22, 12] },
+                { Player: "Baskin Mommins", Drivers: [81, 63, 22, 23] },
+                { Player: "Yuki and Friends", Drivers: [44, 1, 22, 55] },
+                { Player: "Strollin' Outta Q1", Drivers: [ 44, 22, 12, 18] },
+                { Player: "Dynamic Racing Sloths", Drivers: [81, 63, 55, 12] },
+                { Player: "Pud", Drivers: [4, 16, 55, 87] }
+            ],
+            BonusPoints: "+2 points for Nico Hulkenberg for most places gained"
            }
            
     ]
