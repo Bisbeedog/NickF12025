@@ -1,11 +1,11 @@
 var data = {
     Player: [
-        { Name: "Nick", Points: 12 },
-        { Name: "Yuki and Friends", Points: 2 },
-        { Name: "Pud", Points: 2},
-        { Name: "Strollin' Outta Q1", Points:4},
-        { Name: "Dynamic Racing Sloths", Points: 2},
-        { Name: "Baskin Mommins", Points: 4 }
+        { Name: "Nick", Points: 14 },
+        { Name: "Yuki and Friends", Points: 6 },
+        { Name: "Pud", Points: 4},
+        { Name: "Strollin' Outta Q1", Points: 6},
+        { Name: "Dynamic Racing Sloths", Points: 4},
+        { Name: "Baskin Mommins", Points: 6 }
     ],
     Driver: [
         {
@@ -72,7 +72,7 @@ var data = {
             Number: 22,
             Name: "Yuki Tsunoda",
             Team: "RB",
-            Points: 2
+            Points: 4
         },
         {
             Number: 23,
@@ -84,7 +84,7 @@ var data = {
             Number: 27,
             Name: "Nico Hulkenberg",
             Team: "Kick Sauber",
-            Points: 2
+            Points: 4
         },
         {
             Number: 30,
@@ -114,7 +114,7 @@ var data = {
             Number: 55,
             Name: "Carlos Sainz",
             Team: "Williams",
-            Points: 0
+            Points: 2
         },
         {
             Number: 63,
@@ -289,6 +289,34 @@ var data = {
                 { Player: "Pud", Drivers: [4, 16, 55, 87] }
             ],
             BonusPoints: "+2 points for Nico Hulkenberg for most places gained"
+           },
+           {
+            Name: "Canadian GP",
+            Date: "2024-06-15",
+            Finish: [63, 1, 12, 81, 16, 44, 14, 27, 31, 55, 87, 22, 43, 5, 10, 6, 18, 4, 30, 23],
+            Picks: [
+                { Player: "Nick", Drivers: [12, 22, 43, 4] },
+                { Player: "Baskin Mommins", Drivers: [63, 81, 22, 23] },
+                { Player: "Yuki and Friends", Drivers: [1, 44, 55, 22] },
+                { Player: "Strollin' Outta Q1", Drivers: [ 12, 44, 22, 18] },
+                { Player: "Dynamic Racing Sloths", Drivers: [63, 81, 55, 12] },
+                { Player: "Pud", Drivers: [16, 55, 87, 4] }
+            ],
+            BonusPoints: "+2 points for Sainz and Tsunoda for most places gained"
+           },
+           {
+            Name: "Austrian GP",
+            Date: "2024-06-29",
+            Finish: [4, 81, 16, 44, 63, 30, 14, 5, 27, 31, 87, 6, 10, 18, 43, 22, 23, 1, 12, 55],
+            Picks: [
+                { Player: "Nick", Drivers: [4, 22, 23, 12] },
+                { Player: "Baskin Mommins", Drivers: [81, 63, 22, 23] },
+                { Player: "Yuki and Friends", Drivers: [44, 22, 1, 55] },
+                { Player: "Strollin' Outta Q1", Drivers: [ 44, 18, 22, 12] },
+                { Player: "Dynamic Racing Sloths", Drivers: [81, 63, 12, 55] },
+                { Player: "Pud", Drivers: [4, 16, 87, 55] }
+            ],
+            BonusPoints: "+2 points for Hulkenberg for most places gained"
            }
            
     ]
