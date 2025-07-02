@@ -302,7 +302,7 @@ var data = {
                 { Player: "Dynamic Racing Sloths", Drivers: [63, 81, 55, 12] },
                 { Player: "Pud", Drivers: [16, 55, 87, 4] }
             ],
-            BonusPoints: "+2 points for Sainz and Tsunoda for most places gained"
+            BonusPoints: "+2 points for smooth operatoooor and Tsunoda for most places gained"
            },
            {
             Name: "Austrian GP",
