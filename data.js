@@ -84,7 +84,7 @@ var data = {
             Number: 27,
             Name: "Nico Hulkenberg",
             Team: "Kick Sauber",
-            Points: 4
+            Points: 6
         },
         {
             Number: 30,
@@ -309,7 +309,7 @@ var data = {
             Date: "2024-06-29",
             Finish: [4, 81, 16, 44, 63, 30, 14, 5, 27, 31, 87, 6, 10, 18, 43, 22, 23, 1, 12, 55],
             Picks: [
-                { Player: "Nick", Drivers: [4, 22, 23, 12] },
+                { Player: "Nick", Drivers: [4, 22, 43, 12] },
                 { Player: "Baskin Mommins", Drivers: [81, 63, 22, 23] },
                 { Player: "Yuki and Friends", Drivers: [44, 22, 1, 55] },
                 { Player: "Strollin' Outta Q1", Drivers: [ 44, 18, 22, 12] },
@@ -317,6 +317,20 @@ var data = {
                 { Player: "Pud", Drivers: [4, 16, 87, 55] }
             ],
             BonusPoints: "+2 points for Hulkenberg for most places gained"
+           },
+           {
+            Name: "British GP",
+            Date: "2024-07-",
+            Finish: [4, 81, 27, 44, 1, 10, 18, 23, 14, 63, 87, 55, 31, 16, 22, 12, 6, 5, 30, 43],
+            Picks: [
+                { Player: "Nick", Drivers: [4, 43, 22, 12] },
+                { Player: "Baskin Mommins", Drivers: [81, 23, 63, 22] },
+                { Player: "Yuki and Friends", Drivers: [44, 1, 55, 22] },
+                { Player: "Strollin' Outta Q1", Drivers: [ 44, 18, 22, 12] },
+                { Player: "Dynamic Racing Sloths", Drivers: [81, 63, 55, 12] },
+                { Player: "Pud", Drivers: [4, 87, 55, 16] }
+            ],
+            BonusPoints: "+2 points for Hulkenberg for most places gained(again)"
            }
            
     ]
