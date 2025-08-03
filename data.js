@@ -1,10 +1,10 @@
 var data = {
     Player: [
-        { Name: "Nick", Points: 14 },
+        { Name: "Nick", Points: 16 },
         { Name: "Yuki and Friends", Points: 6 },
         { Name: "Pud", Points: 4},
-        { Name: "Strollin' Outta Q1", Points: 6},
-        { Name: "Dynamic Racing Sloths", Points: 4},
+        { Name: "Strollin' Outta Q1", Points: 8},
+        { Name: "Dynamic Racing Sloths", Points: 6},
         { Name: "Baskin Mommins", Points: 6 }
     ],
     Driver: [
@@ -48,7 +48,7 @@ var data = {
             Number: 12,
             Name: "Andrea Kimi Antonelli",
             Team: "Mercedes",
-            Points: 2
+            Points: 4
         },
         {
             Number: 14,
@@ -84,7 +84,7 @@ var data = {
             Number: 27,
             Name: "Nico Hulkenberg",
             Team: "Kick Sauber",
-            Points: 6
+            Points: 8
         },
         {
             Number: 30,
@@ -108,7 +108,7 @@ var data = {
             Number: 44,
             Name: "Lewis Hamilton",
             Team: "Ferrari",
-            Points: 0
+            Points: 2
         },
         {
             Number: 55,
@@ -331,6 +331,48 @@ var data = {
                 { Player: "Pud", Drivers: [4, 87, 55, 16] }
             ],
             BonusPoints: "+2 points for Hulkenberg for most places gained(again)"
+           },
+           {
+            Name: "Belgian GP Sprint",
+            Date: "2024-07-26",
+            Finish: [1, 81, 4, 16, 31, 55, 87, 6, 5, 30, 22, 63, 18, 14, 44, 23, 12, 27, 43, 10],
+            Picks: [
+                { Player: "Nick", Drivers: [4, 22, 12, 43] },
+                { Player: "Baskin Mommins", Drivers: [81, 22, 63, 23] },
+                { Player: "Yuki and Friends", Drivers: [1, 44, 55, 22] },
+                { Player: "Strollin' Outta Q1", Drivers: [ 22, 18, 44, 12] },
+                { Player: "Dynamic Racing Sloths", Drivers: [81, 55, 63, 12] },
+                { Player: "Pud", Drivers: [4, 16, 55, 87] }
+            ],
+            BonusPoints: "None for Sprint"
+           },
+           {
+            Name: "Belgian GP",
+            Date: "2024-07-27",
+            Finish: [81, 4, 16, 1, 63, 23, 44, 30, 5, 10, 87, 27, 22, 18, 31, 12, 14, 55, 43, 6],
+            Picks: [
+                { Player: "Nick", Drivers: [4, 22, 12, 43] },
+                { Player: "Baskin Mommins", Drivers: [81, 63, 23, 22] },
+                { Player: "Yuki and Friends", Drivers: [1, 44, 22, 55] },
+                { Player: "Strollin' Outta Q1", Drivers: [ 44, 22, 18, 12] },
+                { Player: "Dynamic Racing Sloths", Drivers: [81, 63, 55, 12] },
+                { Player: "Pud", Drivers: [4, 16, 87, 55] }
+            ],
+            BonusPoints: "+2 For Hamilton for most places gained"
+           },
+           {
+            Name: "Hungary GP",
+            Date: "2024-08-03",
+            Finish: [4, 81, 63, 16, 14, 5, 18, 30, 1, 12, 6, 44, 27, 55, 23, 31, 22, 43, 10, 87],
+            Picks: [
+                { Player: "Nick", Drivers: [4, 12, 22, 43] },
+                { Player: "Baskin Mommins", Drivers: [81, 63, 23, 22] },
+                { Player: "Yuki and Friends", Drivers: [1, 44, 55, 22] },
+                { Player: "Strollin' Outta Q1", Drivers: [ 18, 12, 44, 22] },
+                { Player: "Dynamic Racing Sloths", Drivers: [81, 63, 12, 55] },
+                { Player: "Pud", Drivers: [4, 16, 55, 87] }
+            ],
+            BonusPoints: "+2 For Antonelli and Hulkenberg for most places gained"
            }
            
     ]
