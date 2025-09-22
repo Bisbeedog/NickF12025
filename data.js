@@ -5,7 +5,7 @@ var data = {
         { Name: "Pud", Points: 4},
         { Name: "Strollin' Outta Q1", Points: 8},
         { Name: "Dynamic Racing Sloths", Points: 6},
-        { Name: "Baskin Mommins", Points: 6 }
+        { Name: "Baskin Mommins", Points: 10 }
     ],
     Driver: [
         {
@@ -78,7 +78,7 @@ var data = {
             Number: 23,
             Name: "Alex Albon",
             Team: "Williams",
-            Points: 0
+            Points: 4
         },
         {
             Number: 27,
@@ -96,7 +96,7 @@ var data = {
             Number: 31,
             Name: "Esteban Ocon",
             Team: "Haas",
-            Points: 0
+            Points: 2
         },
         {
             Number: 43,
@@ -373,6 +373,48 @@ var data = {
                 { Player: "Pud", Drivers: [4, 16, 55, 87] }
             ],
             BonusPoints: "+2 For Antonelli and Hulkenberg for most places gained"
+           },
+           {
+            Name: "Dutch GP",
+            Date: "2024-08-31",
+            Finish: [81, 1, 6, 63, 23, 12, 87, 18, 14, 22, 31, 43, 30, 55, 27, 10, 5, 4, 16, 44],
+            Picks: [
+                { Player: "Nick", Drivers: [12, 22, 43, 4] },
+                { Player: "Baskin Mommins", Drivers: [81, 63, 23, 22] },
+                { Player: "Yuki and Friends", Drivers: [1, 22, 55, 44] },
+                { Player: "Strollin' Outta Q1", Drivers: [ 12, 18, 22, 44] },
+                { Player: "Dynamic Racing Sloths", Drivers: [81, 63, 12, 55] },
+                { Player: "Pud", Drivers: [87, 55, 4, 16] }
+            ],
+            BonusPoints: "+2 For Albon"
+           },
+           {
+            Name: "Italian GP",
+            Date: "2024-09-07",
+            Finish: [1, 4, 81, 16, 63, 44, 23, 5, 12, 6, 55, 87, 22, 30, 31, 10, 43, 18, 14, 27],
+            Picks: [
+                { Player: "Nick", Drivers: [4, 12, 22, 43] },
+                { Player: "Baskin Mommins", Drivers: [81, 63, 23, 22] },
+                { Player: "Yuki and Friends", Drivers: [1, 44, 55, 22] },
+                { Player: "Strollin' Outta Q1", Drivers: [ 44, 12, 22, 18] },
+                { Player: "Dynamic Racing Sloths", Drivers: [81, 63, 12, 55] },
+                { Player: "Pud", Drivers: [4, 16, 55, 87] }
+            ],
+            BonusPoints: "+2 For Hadjar for most places gained"
+           },
+           {
+            Name: "Italian GP",
+            Date: "2024-09-21",
+            Finish: [1, 63, 55, 12, 30, 22, 4, 44, 16, 6, 5, 87, 23, 31, 14, 27, 18, 10, 43, 81],
+            Picks: [
+                { Player: "Nick", Drivers: [12, 22, 4, 43] },
+                { Player: "Baskin Mommins", Drivers: [63, 22, 23, 81] },
+                { Player: "Yuki and Friends", Drivers: [1, 55, 22, 44] },
+                { Player: "Strollin' Outta Q1", Drivers: [ 12, 22, 44, 18] },
+                { Player: "Dynamic Racing Sloths", Drivers: [ 63, 55, 12, 81] },
+                { Player: "Pud", Drivers: [55, 4, 16, 87] }
+            ],
+            BonusPoints: "+2 For Ocon and Albon"
            }
            
     ]
