@@ -403,7 +403,7 @@ var data = {
             BonusPoints: "+2 For Hadjar for most places gained"
            },
            {
-            Name: "Italian GP",
+            Name: "Azerbaijan GP",
             Date: "2024-09-21",
             Finish: [1, 63, 55, 12, 30, 22, 4, 44, 16, 6, 5, 87, 23, 31, 14, 27, 18, 10, 43, 81],
             Picks: [
