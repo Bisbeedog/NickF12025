@@ -3,8 +3,8 @@ var data = {
         { Name: "Nick", Points: 16 },
         { Name: "Yuki and Friends", Points: 6 },
         { Name: "Pud", Points: 4},
-        { Name: "Strollin' Outta Q1", Points: 8},
-        { Name: "Dynamic Racing Sloths", Points: 6},
+        { Name: "Strollin' Outta Q1", Points: 10},
+        { Name: "Dynamic Racing Sloths", Points: 8},
         { Name: "Baskin Mommins", Points: 10 }
     ],
     Driver: [
@@ -24,7 +24,7 @@ var data = {
             Number: 5,
             Name: "Gabriel Bortoleto",
             Team: "Kick Sauber",
-            Points: 0
+            Points: 2
         },
         {
             Number: 6,
@@ -66,7 +66,7 @@ var data = {
             Number: 18,
             Name: "Lance Stroll",
             Team: "Aston Martin",
-            Points: 0
+            Points: 2
         },
         {
             Number: 22,
@@ -114,7 +114,7 @@ var data = {
             Number: 55,
             Name: "Carlos Sainz",
             Team: "Williams",
-            Points: 2
+            Points: 4
         },
         {
             Number: 63,
@@ -415,6 +415,62 @@ var data = {
                 { Player: "Pud", Drivers: [55, 4, 16, 87] }
             ],
             BonusPoints: "+2 For Ocon and Albon"
+           },
+           {
+            Name: "Singapore GP",
+            Date: "2024-10-05",
+            Finish: [63, 1, 4, 81, 12, 16, 14, 44, 87, 55, 6, 22, 18, 23, 30, 43, 5, 31, 10, 27],
+            Picks: [
+                { Player: "Nick", Drivers: [4, 12, 22, 43] },
+                { Player: "Baskin Mommins", Drivers: [63, 22, 23, 81] },
+                { Player: "Yuki and Friends", Drivers: [1, 55, 22, 44] },
+                { Player: "Strollin' Outta Q1", Drivers: [ 12, 22, 44, 18] },
+                { Player: "Dynamic Racing Sloths", Drivers: [ 63, 55, 12, 81] },
+                { Player: "Pud", Drivers: [55, 4, 16, 87] }
+            ],
+            BonusPoints: "+2 for Sainz"
+           },
+           {
+            Name: "US GP Sprint",
+            Date: "2024-10-18",
+            Finish: [1, 63, 55, 44, 16, 23, 22, 12, 30, 10, 5, 6, 27, 43, 87, 31, 18, 4, 81, 14],
+            Picks: [
+                { Player: "Nick", Drivers: [4, 12, 22, 43] },
+                { Player: "Baskin Mommins", Drivers: [63, 22, 23, 81] },
+                { Player: "Yuki and Friends", Drivers: [1, 55, 22, 44] },
+                { Player: "Strollin' Outta Q1", Drivers: [ 12, 22, 44, 18] },
+                { Player: "Dynamic Racing Sloths", Drivers: [ 63, 55, 12, 81] },
+                { Player: "Pud", Drivers: [55, 4, 16, 87] }
+            ],
+            BonusPoints: ""
+           },
+           {
+            Name: "US GP",
+            Date: "2024-10-18",
+            Finish: [1, 4, 16, 44, 81, 63, 22, 27, 87, 14, 30, 18, 12, 23, 31, 6, 43, 5, 10, 55],
+            Picks: [
+                { Player: "Nick", Drivers: [4, 22, 12, 43] },
+                { Player: "Baskin Mommins", Drivers: [81, 63, 22, 23] },
+                { Player: "Yuki and Friends", Drivers: [1, 44, 22, 55] },
+                { Player: "Strollin' Outta Q1", Drivers: [ 44, 22, 18, 12] },
+                { Player: "Dynamic Racing Sloths", Drivers: [ 81, 63, 12, 55] },
+                { Player: "Pud", Drivers: [4, 16, 87, 55] }
+            ],
+            BonusPoints: "+2 to Stroll for most places gained"
+           },
+           {
+            Name: "Mexican GP",
+            Date: "2024-10-25",
+            Finish: [4, 16, 1, 87, 81, 12, 63, 44, 31, 5, 22, 23, 6, 18, 10, 43, 55, 14, 27, 30],
+            Picks: [
+                { Player: "Nick", Drivers: [4, 12, 22, 43] },
+                { Player: "Baskin Mommins", Drivers: [81, 63, 22, 23] },
+                { Player: "Yuki and Friends", Drivers: [1, 44, 22, 55] },
+                { Player: "Strollin' Outta Q1", Drivers: [ 12, 44, 22, 18] },
+                { Player: "Dynamic Racing Sloths", Drivers: [ 81, 12, 63, 55] },
+                { Player: "Pud", Drivers: [4, 16, 87, 55] }
+            ],
+            BonusPoints: "+2 to Bortoleto for most places gained"
            }
            
     ]
