@@ -1,10 +1,10 @@
 var data = {
     Player: [
-        { Name: "Nick", Points: 16 },
+        { Name: "Nick", Points: 18 },
         { Name: "Yuki and Friends", Points: 6 },
         { Name: "Pud", Points: 4},
         { Name: "Strollin' Outta Q1", Points: 10},
-        { Name: "Dynamic Racing Sloths", Points: 8},
+        { Name: "Dynamic Racing Sloths", Points: 10},
         { Name: "Baskin Mommins", Points: 10 }
     ],
     Driver: [
@@ -48,7 +48,7 @@ var data = {
             Number: 12,
             Name: "Andrea Kimi Antonelli",
             Team: "Mercedes",
-            Points: 4
+            Points: 6
         },
         {
             Number: 14,
@@ -138,7 +138,7 @@ var data = {
     Race: [
         {
             Name: "Australian GP",
-            Date: "2024-03-15",
+            Date: "2025-03-15",
             Finish: [4, 1, 63, 12, 23, 18, 27, 16, 81, 44, 10, 22, 31, 87, 30, 5, 14, 55, 7, 6],
             Picks: [
                 { Player: "Nick", Drivers: [4, 12, 30, 7] },
@@ -152,7 +152,7 @@ var data = {
            },
            {
             Name: "Chinese GP Sprint",
-            Date: "2024-03-22",
+            Date: "2025-03-22",
             Finish: [44, 81, 1, 63, 16, 22, 12, 4, 18, 14, 23, 10, 6, 30, 87, 31, 55, 5, 27, 7],
             Picks: [
                 { Player: "Nick", Drivers: [12, 4, 30, 7] },
@@ -166,7 +166,7 @@ var data = {
            },
            {
             Name: "Chinese GP",
-            Date: "2024-03-23",
+            Date: "2025-03-23",
             Finish: [81, 4, 63, 1, 31, 12, 23, 87, 18, 55, 6, 30, 7, 5, 27, 22, 14, 16, 44, 10],
             Picks: [
                 { Player: "Nick", Drivers: [4, 12, 30, 7] },
@@ -180,7 +180,7 @@ var data = {
            },
            {
             Name: "Japanese GP",
-            Date: "2024-04-05",
+            Date: "2025-04-05",
             Finish: [1, 4, 81, 16, 63, 12, 44, 6, 23, 87, 14, 22, 10, 55, 7, 27, 30, 31, 5, 18],
             Picks: [
                 { Player: "Nick", Drivers: [4, 12, 22, 7] },
@@ -194,7 +194,7 @@ var data = {
            },
            {
             Name: "Bahrain GP",
-            Date: "2024-04-13",
+            Date: "2025-04-13",
             Finish: [81, 63, 4, 16, 44, 1, 10, 31, 22, 87, 12, 23, 6, 7, 14, 30, 18, 5, 55, 27],
             Picks: [
                 { Player: "Nick", Drivers: [4, 22, 12, 7] },
@@ -208,7 +208,7 @@ var data = {
            },
            {
             Name: "Saudi Arabian GP",
-            Date: "2024-04-20",
+            Date: "2025-04-20",
             Finish: [81, 1, 16, 4, 63, 12, 44, 55, 23, 6, 14, 30, 87, 31, 27, 18, 7, 5, 22, 10],
             Picks: [
                 { Player: "Nick", Drivers: [4, 12, 7, 22] },
@@ -222,7 +222,7 @@ var data = {
            },
            {
             Name: "Miami GP Sprint",
-            Date: "2024-05-03",
+            Date: "2025-05-03",
             Finish: [4, 81, 44, 63, 18, 22, 12, 10, 27, 6, 23, 31, 30, 87, 5, 7, 1, 14, 55, 16],
             Picks: [
                 { Player: "Nick", Drivers: [4, 22, 12, 7] },
@@ -236,7 +236,7 @@ var data = {
            },
            {
             Name: "Miami GP",
-            Date: "2024-05-04",
+            Date: "2025-05-04",
             Finish: [81, 4, 63, 1, 23, 12, 16, 44, 55, 22, 6, 31, 10, 27, 14, 18, 30, 5, 87, 7],
             Picks: [
                 { Player: "Nick", Drivers: [4, 12, 22, 7] },
@@ -250,7 +250,7 @@ var data = {
            },
            {
             Name: "Emilia Romagna GP",
-            Date: "2024-05-18",
+            Date: "2025-05-18",
             Finish: [1, 4, 81, 44, 23, 16, 63, 55, 6, 22, 14, 27, 10, 30, 18, 43, 87, 5, 12, 31],
             Picks: [
                 { Player: "Nick", Drivers: [4, 22, 43, 12] },
@@ -264,7 +264,7 @@ var data = {
            },
            {
             Name: "Monaco GP",
-            Date: "2024-05-25",
+            Date: "2025-05-25",
             Finish: [4, 16, 81, 1, 44, 6, 31, 30, 23, 55, 63, 87, 43, 5, 18, 27, 22, 12, 14, 10],
             Picks: [
                 { Player: "Nick", Drivers: [4, 43, 22, 12] },
@@ -278,7 +278,7 @@ var data = {
            },
            {
             Name: "Spanish GP",
-            Date: "2024-06-01",
+            Date: "2025-06-01",
             Finish: [81, 4, 16, 63, 27, 44, 6, 10, 14, 1, 30, 5, 22, 55, 43, 31, 87, 12, 23, 18],
             Picks: [
                 { Player: "Nick", Drivers: [4, 43, 22, 12] },
@@ -292,7 +292,7 @@ var data = {
            },
            {
             Name: "Canadian GP",
-            Date: "2024-06-15",
+            Date: "2025-06-15",
             Finish: [63, 1, 12, 81, 16, 44, 14, 27, 31, 55, 87, 22, 43, 5, 10, 6, 18, 4, 30, 23],
             Picks: [
                 { Player: "Nick", Drivers: [12, 22, 43, 4] },
@@ -306,7 +306,7 @@ var data = {
            },
            {
             Name: "Austrian GP",
-            Date: "2024-06-29",
+            Date: "2025-06-29",
             Finish: [4, 81, 16, 44, 63, 30, 14, 5, 27, 31, 87, 6, 10, 18, 43, 22, 23, 1, 12, 55],
             Picks: [
                 { Player: "Nick", Drivers: [4, 22, 43, 12] },
@@ -320,7 +320,7 @@ var data = {
            },
            {
             Name: "British GP",
-            Date: "2024-07-",
+            Date: "2025-07-",
             Finish: [4, 81, 27, 44, 1, 10, 18, 23, 14, 63, 87, 55, 31, 16, 22, 12, 6, 5, 30, 43],
             Picks: [
                 { Player: "Nick", Drivers: [4, 43, 22, 12] },
@@ -334,7 +334,7 @@ var data = {
            },
            {
             Name: "Belgian GP Sprint",
-            Date: "2024-07-26",
+            Date: "2025-07-26",
             Finish: [1, 81, 4, 16, 31, 55, 87, 6, 5, 30, 22, 63, 18, 14, 44, 23, 12, 27, 43, 10],
             Picks: [
                 { Player: "Nick", Drivers: [4, 22, 12, 43] },
@@ -348,7 +348,7 @@ var data = {
            },
            {
             Name: "Belgian GP",
-            Date: "2024-07-27",
+            Date: "2025-07-27",
             Finish: [81, 4, 16, 1, 63, 23, 44, 30, 5, 10, 87, 27, 22, 18, 31, 12, 14, 55, 43, 6],
             Picks: [
                 { Player: "Nick", Drivers: [4, 22, 12, 43] },
@@ -362,7 +362,7 @@ var data = {
            },
            {
             Name: "Hungary GP",
-            Date: "2024-08-03",
+            Date: "2025-08-03",
             Finish: [4, 81, 63, 16, 14, 5, 18, 30, 1, 12, 6, 44, 27, 55, 23, 31, 22, 43, 10, 87],
             Picks: [
                 { Player: "Nick", Drivers: [4, 12, 22, 43] },
@@ -376,7 +376,7 @@ var data = {
            },
            {
             Name: "Dutch GP",
-            Date: "2024-08-31",
+            Date: "2025-08-31",
             Finish: [81, 1, 6, 63, 23, 12, 87, 18, 14, 22, 31, 43, 30, 55, 27, 10, 5, 4, 16, 44],
             Picks: [
                 { Player: "Nick", Drivers: [12, 22, 43, 4] },
@@ -390,7 +390,7 @@ var data = {
            },
            {
             Name: "Italian GP",
-            Date: "2024-09-07",
+            Date: "2025-09-07",
             Finish: [1, 4, 81, 16, 63, 44, 23, 5, 12, 6, 55, 87, 22, 30, 31, 10, 43, 18, 14, 27],
             Picks: [
                 { Player: "Nick", Drivers: [4, 12, 22, 43] },
@@ -404,7 +404,7 @@ var data = {
            },
            {
             Name: "Azerbaijan GP",
-            Date: "2024-09-21",
+            Date: "2025-09-21",
             Finish: [1, 63, 55, 12, 30, 22, 4, 44, 16, 6, 5, 87, 23, 31, 14, 27, 18, 10, 43, 81],
             Picks: [
                 { Player: "Nick", Drivers: [12, 22, 4, 43] },
@@ -418,7 +418,7 @@ var data = {
            },
            {
             Name: "Singapore GP",
-            Date: "2024-10-05",
+            Date: "2025-10-05",
             Finish: [63, 1, 4, 81, 12, 16, 14, 44, 87, 55, 6, 22, 18, 23, 30, 43, 5, 31, 10, 27],
             Picks: [
                 { Player: "Nick", Drivers: [4, 12, 22, 43] },
@@ -432,7 +432,7 @@ var data = {
            },
            {
             Name: "US GP Sprint",
-            Date: "2024-10-18",
+            Date: "2025-10-18",
             Finish: [1, 63, 55, 44, 16, 23, 22, 12, 30, 10, 5, 6, 27, 43, 87, 31, 18, 4, 81, 14],
             Picks: [
                 { Player: "Nick", Drivers: [4, 12, 22, 43] },
@@ -446,7 +446,7 @@ var data = {
            },
            {
             Name: "US GP",
-            Date: "2024-10-18",
+            Date: "2025-10-18",
             Finish: [1, 4, 16, 44, 81, 63, 22, 27, 87, 14, 30, 18, 12, 23, 31, 6, 43, 5, 10, 55],
             Picks: [
                 { Player: "Nick", Drivers: [4, 22, 12, 43] },
@@ -460,7 +460,7 @@ var data = {
            },
            {
             Name: "Mexican GP",
-            Date: "2024-10-25",
+            Date: "2025-10-25",
             Finish: [4, 16, 1, 87, 81, 12, 63, 44, 31, 5, 22, 23, 6, 18, 10, 43, 55, 14, 27, 30],
             Picks: [
                 { Player: "Nick", Drivers: [4, 12, 22, 43] },
@@ -471,6 +471,62 @@ var data = {
                 { Player: "Pud", Drivers: [4, 16, 87, 55] }
             ],
             BonusPoints: "+2 to Bortoleto for most places gained"
+           },
+           {
+            Name: "Brazil GP Sprint",
+            Date: "2025-11-09",
+            Finish: [4, 12, 63, 1, 16, 14, 44, 10, 18, 6, 31, 87, 22, 55, 27, 30, 23, 5, 81,43],
+            Picks: [
+                { Player: "Nick", Drivers: [4, 12, 22, 43] },
+                { Player: "Baskin Mommins", Drivers: [81, 63, 22, 23] },
+                { Player: "Yuki and Friends", Drivers: [1, 44, 22, 55] },
+                { Player: "Strollin' Outta Q1", Drivers: [ 12, 44, 22, 18] },
+                { Player: "Dynamic Racing Sloths", Drivers: [ 81, 12, 63, 55] },
+                { Player: "Pud", Drivers: [4, 16, 87, 55] }
+            ],
+            BonusPoints: "None for sprint"
+           },
+           {
+            Name: "Brazil GP ",
+            Date: "2025-11-09",
+            Finish: [4, 12, 1, 63, 81, 87, 30, 6, 27, 10, 23, 31, 55, 14, 43, 18, 22, 44, 16, 5],
+            Picks: [
+                { Player: "Nick", Drivers: [4, 12, 22, 43] },
+                { Player: "Baskin Mommins", Drivers: [81, 63, 22, 23] },
+                { Player: "Yuki and Friends", Drivers: [1, 44, 22, 55] },
+                { Player: "Strollin' Outta Q1", Drivers: [ 12, 44, 22, 18] },
+                { Player: "Dynamic Racing Sloths", Drivers: [ 81, 12, 63, 55] },
+                { Player: "Pud", Drivers: [4, 16, 87, 55] }
+            ],
+            BonusPoints: "+2 to Verstappen for most places gained"
+           },
+           {
+            Name: "Las Vegas GP",
+            Date: "2025-11-22",
+            Finish: [1, 63, 12, 16, 55, 6, 27, 44, 31, 87, 14, 22, 10, 30, 43, 23, 5, 18, 4, 81],
+            Picks: [
+                { Player: "Nick", Drivers: [4, 12, 22, 43] },
+                { Player: "Baskin Mommins", Drivers: [81, 63, 22, 23] },
+                { Player: "Yuki and Friends", Drivers: [1, 44, 22, 55] },
+                { Player: "Strollin' Outta Q1", Drivers: [ 12, 44, 22, 18] },
+                { Player: "Dynamic Racing Sloths", Drivers: [ 81, 12, 63, 55] },
+                { Player: "Pud", Drivers: [4, 16, 87, 55] }
+            ],
+            BonusPoints: "+2 to Antonelli for most places gained"
+           },
+           {
+            Name: "Qatar GP Sprint",
+            Date: "2025-11-29",
+            Finish: [81, 63, 4, 1, 22, 12, 14, 55, 6, 23, 5, 87, 16, 30, 31, 27, 44, 10, 18, 43],
+            Picks: [
+                { Player: "Nick", Drivers: [4, 12, 22, 43] },
+                { Player: "Baskin Mommins", Drivers: [81, 63, 22, 23] },
+                { Player: "Yuki and Friends", Drivers: [1, 44, 22, 55] },
+                { Player: "Strollin' Outta Q1", Drivers: [ 12, 44, 22, 18] },
+                { Player: "Dynamic Racing Sloths", Drivers: [ 81, 12, 63, 55] },
+                { Player: "Pud", Drivers: [4, 16, 87, 55] }
+            ],
+            BonusPoints: "None for sprint"
            }
            
     ]
