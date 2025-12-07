@@ -1,9 +1,9 @@
 var data = {
     Player: [
         { Name: "Nick", Points: 18 },
-        { Name: "Yuki and Friends", Points: 6 },
+        { Name: "Yuki and Friends", Points: 8 },
         { Name: "Pud", Points: 4},
-        { Name: "Strollin' Outta Q1", Points: 10},
+        { Name: "Strollin' Outta Q1", Points: 12},
         { Name: "Dynamic Racing Sloths", Points: 10},
         { Name: "Baskin Mommins", Points: 10 }
     ],
@@ -72,7 +72,7 @@ var data = {
             Number: 22,
             Name: "Yuki Tsunoda",
             Team: "RB",
-            Points: 4
+            Points: 6
         },
         {
             Number: 23,
@@ -108,7 +108,7 @@ var data = {
             Number: 44,
             Name: "Lewis Hamilton",
             Team: "Ferrari",
-            Points: 2
+            Points: 4
         },
         {
             Number: 55,
@@ -527,6 +527,34 @@ var data = {
                 { Player: "Pud", Drivers: [4, 16, 87, 55] }
             ],
             BonusPoints: "None for sprint"
+           },
+           {
+            Name: "Qatar GP",
+            Date: "2025-11-30",
+            Finish: [1, 81, 55, 4, 12, 63, 14, 16, 30, 22, 23, 44, 5, 43, 31, 10, 18, 6, 87, 27],
+            Picks: [
+                { Player: "Nick", Drivers: [4, 12, 22, 43] },
+                { Player: "Baskin Mommins", Drivers: [81, 63, 22, 23] },
+                { Player: "Yuki and Friends", Drivers: [1, 55, 22, 44] },
+                { Player: "Strollin' Outta Q1", Drivers: [ 12, 22, 44, 18] },
+                { Player: "Dynamic Racing Sloths", Drivers: [ 81, 55, 12, 63,] },
+                { Player: "Pud", Drivers: [4, 55, 16, 87] }
+            ],
+            BonusPoints: "+2 points for Yuki Tsunoda for most places gained"
+           },
+           {
+            Name: "Abu Dhabi GP",
+            Date: "2025-12-07",
+            Finish: [1, 81, 4, 16, 63, 14, 31, 44, 27, 18, 5, 87, 55, 22, 12, 23, 6, 30, 10, 43],
+            Picks: [
+                { Player: "Nick", Drivers: [4, 22, 12, 43] },
+                { Player: "Baskin Mommins", Drivers: [81, 63, 22, 23] },
+                { Player: "Yuki and Friends", Drivers: [1, 44, 55, 22] },
+                { Player: "Strollin' Outta Q1", Drivers: [ 44, 18, 22, 12] },
+                { Player: "Dynamic Racing Sloths", Drivers: [ 81, 63, 55, 12] },
+                { Player: "Pud", Drivers: [4, 16, 87, 55] }
+            ],
+            BonusPoints: "+2 points for Lewis Hamilton for most places gained"
            }
            
     ]
